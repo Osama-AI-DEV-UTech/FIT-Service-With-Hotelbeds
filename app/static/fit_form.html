@@ -1,0 +1,379 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FIT Package Builder</title>
+<style>
+  :root {
+    --bg: #f6f7fb; --card: #ffffff; --ink: #1c2230; --muted: #5d6677; --line: #e2e6ee;
+    --accent: #2457d6; --accent-ink: #ffffff; --ok: #1d8a4e; --warn: #b26a00; --crit: #c22f2f; --chip: #eef2fb;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #11141b; --card: #1a1f2a; --ink: #e7eaf1; --muted: #9aa3b5; --line: #2b3242;
+            --accent: #6d95ff; --accent-ink: #0b1020; --ok: #4fc483; --warn: #f0b04a; --crit: #ff7a7a; --chip: #242b3a; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 14px/1.45 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  header { padding: 18px 16px; border-bottom: 1px solid var(--line); background: var(--card); position: sticky; top: 0; z-index: 5; }
+  header .wrap { display: flex; gap: 12px; align-items: center; justify-content: space-between; flex-wrap: wrap; }
+  h1 { font-size: 18px; margin: 0; }
+  h1 small { color: var(--muted); font-weight: 400; }
+  .wrap { max-width: 1100px; margin: 0 auto; }
+  main { padding: 16px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 16px; margin-bottom: 14px; }
+  .card h2 { font-size: 15px; margin: 0 0 12px; display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+  .card h3 { font-size: 14px; margin: 14px 0 8px; color: var(--muted); }
+  .grid { display: grid; gap: 10px 12px; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); }
+  label { display: flex; flex-direction: column; gap: 4px; font-size: 12px; color: var(--muted); }
+  label.check { flex-direction: row; align-items: center; gap: 8px; color: var(--ink); font-size: 13px; padding-top: 18px; }
+  input, select, textarea { font: inherit; color: var(--ink); background: var(--bg); border: 1px solid var(--line); border-radius: 8px; padding: 7px 9px; min-width: 0; }
+  textarea { min-height: 38px; resize: vertical; }
+  .new { color: var(--accent); font-weight: 600; }
+  button { font: inherit; border: 1px solid var(--line); background: var(--card); color: var(--ink); border-radius: 8px; padding: 7px 12px; cursor: pointer; }
+  button.primary { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); font-weight: 600; }
+  button.link { border: none; background: none; color: var(--accent); padding: 4px; }
+  button.danger { color: var(--crit); }
+  button:disabled { opacity: .6; cursor: progress; }
+  .row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+  .dest { border: 1px dashed var(--line); border-radius: 10px; padding: 12px; margin-bottom: 12px; }
+  .exc { border-left: 3px solid var(--line); padding: 8px 0 4px 10px; margin: 8px 0; }
+  .hint { color: var(--muted); font-size: 12px; }
+  .status { padding: 3px 9px; border-radius: 99px; font-size: 12px; font-weight: 600; background: var(--chip); }
+  .s-GENERATED, .s-SELECTED, .s-MATCHED { color: var(--ok); }
+  .s-PARTIAL, .s-WARNING { color: var(--warn); }
+  .s-FAILED, .s-CRITICAL { color: var(--crit); }
+  .hotel { display: grid; grid-template-columns: 180px 1fr; gap: 12px; }
+  @media (max-width: 640px) { .hotel { grid-template-columns: 1fr; } }
+  .hotel img { width: 100%; height: 130px; object-fit: cover; border-radius: 8px; background: var(--chip); }
+  .price { font-weight: 700; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th, td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { color: var(--muted); font-weight: 600; }
+  .adv { padding: 6px 0; border-bottom: 1px solid var(--line); }
+  pre { background: var(--bg); border: 1px solid var(--line); border-radius: 8px; padding: 10px; max-height: 420px; overflow: auto; font-size: 12px; }
+  .tabs { display: flex; gap: 6px; margin-bottom: 10px; flex-wrap: wrap; }
+  .tabs button.on { background: var(--chip); border-color: var(--accent); }
+  .err { color: var(--crit); white-space: pre-wrap; }
+  .scroll { overflow-x: auto; }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1>FIT Package Builder <small>· Hotelbeds</small></h1>
+    <div class="row">
+      <select id="exampleSel" aria-label="Example">
+        <option value="multi_city">Example: Dubai → Istanbul family</option>
+        <option value="single_city">Example: Dubai luxury couple</option>
+      </select>
+      <button id="loadExample">Load example</button>
+      <a href="docs"><button>API docs</button></a>
+    </div>
+  </div>
+</header>
+<main class="wrap">
+  <p class="hint">Fields marked <span class="new">●</span> were added for Hotelbeds (not in the original FIT JSON). Order of processing: hotels → activities → transfers → package.</p>
+
+  <form id="fitForm" autocomplete="off">
+    <section class="card">
+      <h2>Trip</h2>
+      <div class="grid">
+        <label>Trip regions (comma separated)<input name="tripInfo.tripRegions" data-list></label>
+        <label>Trip countries (comma separated)<input name="tripInfo.tripCountries" data-list required></label>
+        <label>Start city<input name="tripInfo.startDestinationCity" required></label>
+        <label>Arrival point (airport / IATA)<input name="tripInfo.startDestinationLocation" placeholder="DXB"></label>
+        <label>Arrival date-time<input type="datetime-local" name="tripInfo.startDestinationDate" required></label>
+        <label>End city<input name="tripInfo.endDestinationCity"></label>
+        <label>Final departure point<input name="tripInfo.endDestinationLocation" placeholder="IST"></label>
+        <label>Final departure date-time<input type="datetime-local" name="tripInfo.endDestinationDate" required></label>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Travellers</h2>
+      <div class="grid">
+        <label>Adults<input type="number" min="1" max="30" name="travelerInfo.adults" data-num required></label>
+        <label>Children<input type="number" min="0" max="20" name="travelerInfo.children" data-num></label>
+        <label>Child ages (comma separated)<input name="travelerInfo.childAges" data-list placeholder="8, 5"></label>
+        <label>Traveller type<select name="travelerInfo.travelerType">
+          <option value="">—</option><option>FAMILY</option><option>COUPLE</option><option>SOLO</option>
+          <option>GROUP</option><option>FRIENDS</option><option>SENIOR</option></select></label>
+        <label><span><span class="new">●</span> Nationality (sourceMarket)</span><input name="travelerInfo.nationality" placeholder="Pakistan / PK"></label>
+        <label class="check"><input type="checkbox" name="travelerInfo.isImmobile"> Reduced mobility</label>
+        <label style="grid-column:1/-1">Comment<textarea name="travelerInfo.comment"></textarea></label>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Destinations <button type="button" class="link" id="addDest">+ Add destination</button></h2>
+      <div id="dests"></div>
+    </section>
+
+    <section class="card">
+      <h2>Budget & preferences</h2>
+      <div class="grid">
+        <label>Budget (total)<input type="number" min="0" name="budget.range" data-num></label>
+        <label><span><span class="new">●</span> Budget currency</span><input name="budget.currency" placeholder="EUR"></label>
+        <label>Splurge on (comma)<input name="budget.splurgeOn" data-list placeholder="HOTEL, ACTIVITIES"></label>
+        <label>Optimise cost on (comma)<input name="budget.optamizeCostOn" data-list placeholder="TRANSFERS"></label>
+        <label>Planning style<select name="budget.planningStyle"><option value="">—</option><option>BUDGET</option>
+          <option>MID_RANGE</option><option>LUXURY</option><option>ULTRA_LUXURY</option></select></label>
+        <label>Decision timeline<select name="budget.decisionTimeline"><option value="">—</option><option>IMMEDIATE</option>
+          <option>WITHIN_WEEK</option><option>FLEXIBLE</option></select></label>
+        <label>Meal preference<input name="foodGuideEtc.mealPref" placeholder="HALAL"></label>
+        <label>Meal comment<input name="foodGuideEtc.mealComment"></label>
+        <label>Guide language<input name="foodGuideEtc.guideLanguage" placeholder="English"></label>
+        <label>Guide comment<input name="foodGuideEtc.guideComment"></label>
+        <label class="check"><input type="checkbox" name="foodGuideEtc.travelInsuranceReqd"> Travel insurance</label>
+        <label class="check"><input type="checkbox" name="foodGuideEtc.esimReqd"> eSIM</label>
+        <label class="check"><input type="checkbox" name="foodGuideEtc.evisaReqd"> e-Visa</label>
+        <label>Comfort with crowds<select name="comfortSafety.comfortWtCrowd"><option value="">—</option><option>LOW</option><option>MEDIUM</option><option>HIGH</option></select></label>
+        <label>Comfort with remote places<select name="comfortSafety.comfortWtRemote"><option value="">—</option><option>LOW</option><option>MEDIUM</option><option>HIGH</option></select></label>
+        <label>Comfort with local transport<select name="comfortSafety.comfortWtLocalTranspt"><option value="">—</option><option>LOW</option><option>MEDIUM</option><option>HIGH</option></select></label>
+        <label style="grid-column:1/-1">Comfort / safety comment<textarea name="comfortSafety.comment"></textarea></label>
+        <label style="grid-column:1/-1">Reference trip comment<textarea name="refTripComment"></textarea></label>
+        <label style="grid-column:1/-1">Additional comment<textarea name="addnlComment"></textarea></label>
+      </div>
+    </section>
+
+    <div class="row" style="margin-bottom:16px">
+      <button type="submit" class="primary" id="submitBtn">Generate package</button>
+      <button type="button" id="showJson">Show request JSON</button>
+      <span id="busy" class="hint"></span>
+    </div>
+    <pre id="jsonPreview" hidden></pre>
+  </form>
+
+  <section id="result" hidden></section>
+</main>
+
+<template id="destTpl">
+  <div class="dest">
+    <div class="row" style="justify-content:space-between"><strong class="dtitle">Destination</strong>
+      <button type="button" class="link danger" data-remove>Remove</button></div>
+    <div class="grid">
+      <label>City<input data-f="destinationName" required></label>
+    </div>
+    <h3>Travel into this destination</h3>
+    <div class="grid">
+      <label>From<input data-f="travelSegment.fromDestination"></label>
+      <label>To<input data-f="travelSegment.toDestination"></label>
+      <label>Arrival date-time<input type="datetime-local" data-f="travelSegment.travelDate"></label>
+      <label>Mode<select data-f="travelSegment.modeOfTravel"><option value="">—</option><option>FLIGHT</option><option>TRAIN</option>
+        <option>FERRY</option><option>CRUISE</option><option>CAR</option><option>BUS</option></select></label>
+      <label>Class<select data-f="travelSegment.classOfTravel"><option value="">—</option><option>ECONOMY</option><option>PREMIUM_ECONOMY</option>
+        <option>BUSINESS</option><option>FIRST</option></select></label>
+      <label><span><span class="new">●</span> Arrival terminal code</span><input data-f="travelSegment.arrivalTerminalCode" placeholder="DXB / PORT:xxx"></label>
+      <label class="check"><input type="checkbox" data-f="travelSegment.needStorage"> Luggage storage</label>
+      <label>Storage comment<input data-f="travelSegment.storageComment"></label>
+    </div>
+    <h3>Transfers</h3>
+    <div class="grid">
+      <label class="check"><input type="checkbox" data-f="transportDetails.arprtOrStatnTrsfrReqd"> Arrival transfer (airport/station → hotel)</label>
+      <label>Flight/train arrival time<input type="datetime-local" data-f="transportDetails.arprtOrStatnTrsfrDt"></label>
+      <label>Arrival transfer type<select data-f="transportDetails.trsfrType"><option value="">—</option><option>PRIVATE</option><option>SHARED</option><option>LUXURY</option></select></label>
+      <label class="check"><input type="checkbox" data-f="transportDetails.hotelTrsfrReqd"> Departure transfer (hotel → airport/station)</label>
+      <label>Flight/train departure time<input type="datetime-local" data-f="transportDetails.hotelTrsfrDt"></label>
+      <label>Departure transfer type<select data-f="transportDetails.hotelTrsfrType"><option value="">—</option><option>PRIVATE</option><option>SHARED</option><option>LUXURY</option></select></label>
+      <label>Luggage comment<input data-f="transportDetails.luggageComment"></label>
+    </div>
+    <h3>Accommodation</h3>
+    <div class="grid">
+      <label>Hotel category<select data-f="accommodation.hotelCategory"><option value="">—</option><option>3_STAR</option><option>4_STAR</option>
+        <option>5_STAR</option><option>BOUTIQUE</option><option>LUXURY</option></select></label>
+      <label>Preferred area<input data-f="accommodation.location" placeholder="Downtown Dubai"></label>
+      <label>Room type<select data-f="accommodation.roomType"><option value="">—</option><option>STANDARD</option><option>SUPERIOR</option>
+        <option>DELUXE</option><option>SUITE</option><option>FAMILY</option></select></label>
+      <label>Bed<select data-f="accommodation.bedPref"><option value="">—</option><option>DOUBLE</option><option>TWIN</option><option>KING</option></select></label>
+      <label>Nights<input type="number" min="1" max="60" data-f="accommodation.numberNights" data-num></label>
+      <label>Preferred brand<input data-f="accommodation.preferedBrand"></label>
+      <label><span><span class="new">●</span> Rooms</span><input type="number" min="1" max="9" data-f="accommodation.rooms" data-num placeholder="auto"></label>
+      <label><span><span class="new">●</span> Board</span><select data-f="accommodation.boardBasis"><option value="">Any</option><option value="RO">Room only</option>
+        <option value="BB">Bed &amp; breakfast</option><option value="HB">Half board</option><option value="FB">Full board</option><option value="AI">All inclusive</option></select></label>
+      <label class="check"><input type="checkbox" data-f="accommodation.refundableOnly"> <span><span class="new">●</span> Refundable only</span></label>
+      <label style="grid-column:1/-1">Hotel comment<input data-f="accommodation.comment"></label>
+    </div>
+    <h3>Excursions <button type="button" class="link" data-add-exc>+ Add excursion</button></h3>
+    <div data-excs></div>
+  </div>
+</template>
+
+<template id="excTpl">
+  <div class="exc">
+    <div class="grid">
+      <label>What<input data-e="excursion" placeholder="Desert safari"></label>
+      <label>Type<select data-e="excursionType"><option value="">—</option><option>CULTURAL</option><option>ADVENTURE</option><option>NATURE</option>
+        <option>CULINARY</option><option>SIGHTSEEING</option><option>ENTERTAINMENT</option><option>SHOPPING</option><option>RELAXATION</option><option>RELIGIOUS</option></select></label>
+      <label>Date<input type="date" data-e="excursionDate"></label>
+      <label>Day part<select data-e="dayPart"><option value="">—</option><option>MORNING</option><option>AFTERNOON</option><option>EVENING</option><option>FULL_DAY</option></select></label>
+      <label>Adults<input type="number" min="0" data-e="adultCount" data-num></label>
+      <label>Children<input type="number" min="0" data-e="childCount" data-num></label>
+      <label>Comment<input data-e="comment"></label>
+      <label style="justify-content:flex-end"><button type="button" class="link danger" data-remove-exc>Remove</button></label>
+    </div>
+  </div>
+</template>
+
+<script>
+(() => {
+  const $ = (s, el = document) => el.querySelector(s);
+  const $$ = (s, el = document) => [...el.querySelectorAll(s)];
+  const API = "api/v1";
+  const destsEl = $("#dests");
+
+  const get = (obj, path) => path.split(".").reduce((o, k) => (o == null ? undefined : o[k]), obj);
+  const set = (obj, path, val) => {
+    const keys = path.split("."); let o = obj;
+    keys.slice(0, -1).forEach(k => { o[k] = o[k] || {}; o = o[k]; });
+    o[keys[keys.length - 1]] = val;
+  };
+  const toLocal = v => (v ? String(v).slice(0, 16) : "");
+  const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+
+  function fillInput(input, value) {
+    if (input.type === "checkbox") input.checked = !!value;
+    else if (input.type === "datetime-local") input.value = toLocal(value);
+    else if (input.hasAttribute("data-list")) input.value = (value || []).join(", ");
+    else input.value = value ?? "";
+  }
+  function readInput(input) {
+    if (input.type === "checkbox") return input.checked;
+    const v = input.value.trim();
+    if (input.hasAttribute("data-list")) return v ? v.split(",").map(s => s.trim()).filter(Boolean) : [];
+    if (input.hasAttribute("data-num")) return v === "" ? null : Number(v);
+    if (input.type === "datetime-local") return v ? (v.length === 16 ? v + ":00" : v) : null;
+    return v === "" ? null : v;
+  }
+
+  function addExcursion(container, data = {}) {
+    const node = $("#excTpl").content.firstElementChild.cloneNode(true);
+    $$("[data-e]", node).forEach(i => fillInput(i, data[i.dataset.e]));
+    $("[data-remove-exc]", node).onclick = () => node.remove();
+    container.appendChild(node);
+  }
+  function addDestination(data = {}) {
+    const node = $("#destTpl").content.firstElementChild.cloneNode(true);
+    $$("[data-f]", node).forEach(i => fillInput(i, get(data, i.dataset.f)));
+    $("[data-remove]", node).onclick = () => { node.remove(); renumber(); };
+    const excs = $("[data-excs]", node);
+    (data.excursions || []).forEach(e => addExcursion(excs, e));
+    $("[data-add-exc]", node).onclick = () => addExcursion(excs);
+    destsEl.appendChild(node);
+    renumber();
+  }
+  function renumber() { $$(".dest", destsEl).forEach((d, i) => { $(".dtitle", d).textContent = `Destination ${i + 1}`; }); }
+
+  function loadRequest(req) {
+    $$("#fitForm [name]").forEach(i => fillInput(i, get(req, i.name)));
+    destsEl.innerHTML = "";
+    (req.destinations || []).forEach(d => addDestination(d));
+  }
+
+  function collect() {
+    const req = { status: "SUBMITTED" };
+    $$("#fitForm [name]").forEach(i => set(req, i.name, readInput(i)));
+    req.travelerInfo.children = req.travelerInfo.children || 0;
+    req.destinations = $$(".dest", destsEl).map((d, idx) => {
+      const out = { destinationIndex: idx, excursions: [] };
+      $$("[data-f]", d).forEach(i => set(out, i.dataset.f, readInput(i)));
+      out.excursions = $$(".exc", d).map(e => {
+        const x = {}; $$("[data-e]", e).forEach(i => { x[i.dataset.e] = readInput(i); }); return x;
+      }).filter(x => x.excursion || x.excursionType);
+      return out;
+    });
+    return req;
+  }
+
+  async function loadExample() {
+    const kind = $("#exampleSel").value;
+    const r = await fetch(`${API}/request-template?kind=${kind}`);
+    loadRequest(await r.json());
+  }
+
+  // ── result rendering ────────────────────────────────────────────
+  const money = p => (p ? `${Number(p.selling ?? p.amount).toLocaleString(undefined, { maximumFractionDigits: 2 })} ${p.currency || ""}` : "—");
+
+  function renderResult(pkg) {
+    const res = $("#result"); res.hidden = false;
+    const d = pkg.displayPackage, s = d.summary;
+    const advisories = pkg.adminComments.map(a =>
+      `<div class="adv"><span class="status s-${a.severity}">${a.severity}</span> <strong>${esc(a.category)}</strong> ${esc(a.message)}</div>`).join("") || "<p class='hint'>None</p>";
+    const added = (pkg.requestFieldsAdded || []).map(f => `<li><code>${esc(f.field)}</code> = ${esc(f.usedValue)} — ${esc(f.reason)}</li>`).join("");
+    const dests = d.destinations.map(renderDest).join("");
+    const itin = d.itinerary.map(day => `<tr><td><strong>Day ${day.day}</strong><br><span class="hint">${day.date} · ${day.weekday}</span></td>
+        <td>${esc(day.destination)}</td><td>${day.events.map(e => `${e.time ? `<strong>${e.time}</strong> ` : ""}${esc(e.title)}${e.details ? ` <span class="hint">· ${esc(e.details)}</span>` : ""}`).join("<br>")}</td></tr>`).join("");
+    const totals = d.pricing.totalsByCurrency.map(t => `<tr><td>${t.currency}</td><td>${t.net}</td><td>${t.selling}</td>
+        <td>${Object.entries(t.byCategory).map(([k, v]) => `${k}: ${v}`).join(" · ")}</td></tr>`).join("");
+    const b = d.pricing.budgetCheck;
+    res.innerHTML = `
+      <section class="card">
+        <h2><span>${esc(s.title)}</span><span class="status s-${pkg.status}">${pkg.status}</span></h2>
+        <p>${esc(d.narrative || "")}</p>
+        <div class="row hint">Package <code>${pkg.packageId}</code> · expires ${new Date(pkg.expiresAt).toLocaleString()}
+          · Hotelbeds calls: ${pkg.generationMetadata.hotelbedsCalls?.total ?? "?"} · ${pkg.generationMetadata.durationMs} ms</div>
+        <h3>Total</h3>
+        <div class="scroll"><table><tr><th>Currency</th><th>Net</th><th>Selling</th><th>By category</th></tr>${totals}</table></div>
+        ${b ? `<p class="hint">Budget ${b.budget} ${b.currency}: ${b.withinBudget === undefined ? esc(b.note) : (b.withinBudget ? "within budget" : "over budget")} ${b.utilisationPct ? `(${b.utilisationPct}% used)` : ""}</p>` : ""}
+      </section>
+      ${dests}
+      <section class="card"><h2>Day-by-day itinerary</h2><div class="scroll"><table>${itin}</table></div></section>
+      <section class="card"><h2>Admin advisories</h2>${advisories}
+        ${added ? `<h3>Defaults used for missing Hotelbeds fields</h3><ul>${added}</ul>` : ""}</section>
+      <section class="card"><h2>Raw response</h2><pre>${esc(JSON.stringify(pkg, null, 2))}</pre></section>`;
+    res.scrollIntoView({ behavior: "smooth" });
+  }
+
+  function renderDest(dst) {
+    const h = dst.hotel.selected;
+    const hotel = h ? `<div class="hotel">
+        ${h.images?.[0] ? `<img src="${esc(h.images[0].url)}" alt="">` : "<div></div>"}
+        <div><strong>${esc(h.name)}</strong> ${h.stars ? "★".repeat(h.stars) : ""} <span class="hint">${esc(h.zone || "")}</span><br>
+        ${h.rooms.map(r => `${r.rooms}× ${esc(r.roomName)} · ${esc(r.board || "")} · ${r.rateClass === "NRF" ? "non-refundable" : "refundable"}`).join("<br>")}<br>
+        <span class="price">${money(h.price)}</span> <span class="hint">(${h.nights} nights${h.freeCancellationUntil ? ` · penalties from ${esc(h.freeCancellationUntil)}` : ""})</span>
+        ${dst.hotel.alternatives.length ? `<div class="hint">Alternatives: ${dst.hotel.alternatives.map(a => `${esc(a.name)} (${money(a.price)})`).join(" · ")}</div>` : ""}
+        </div></div>` : `<p class="err">Hotel: ${esc(dst.hotel.status)}</p>`;
+    const acts = [...dst.activities.items, ...dst.activities.suggested].map(a => a.activity ? `<tr><td>${a.date}</td>
+        <td>${esc(a.activity.name)}${a.isSuggested ? ' <span class="status">optional</span>' : ""}<br><span class="hint">${esc(a.modality?.name || "")}</span></td>
+        <td>${a.requested ? esc(a.requested.excursion || a.requested.excursionType || "") : ""}</td><td class="price">${money(a.price)}</td></tr>`
+      : `<tr><td>${esc(a.requested?.excursionDate || "")}</td><td class="err">Not available</td><td>${esc(a.requested?.excursion || "")}</td><td></td></tr>`).join("");
+    const trf = ["arrival", "departure"].map(k => dst.transfers[k]).filter(Boolean).map(t => t.selected
+      ? `<tr><td>${t.direction}</td><td>${esc(t.from?.code)} → ${esc(t.to?.name || t.to?.code)}</td><td>${esc(t.selected.transferType)} · ${esc(t.selected.vehicle?.name || "")}</td>
+         <td>${esc(t.selected.pickup?.date || "")} ${esc((t.selected.pickup?.time || "").slice(0, 5))}</td><td class="price">${money(t.selected.price)}</td></tr>`
+      : `<tr><td>${t.direction}</td><td colspan="4" class="err">${esc(t.status)} ${esc(t.reason || "")}</td></tr>`).join("");
+    return `<section class="card"><h2><span>${esc(dst.name)} · ${dst.checkIn} → ${dst.checkOut}</span><span class="hint">${dst.nights} nights</span></h2>
+      ${hotel}
+      ${acts ? `<h3>Activities</h3><div class="scroll"><table><tr><th>Date</th><th>Activity</th><th>Requested</th><th>Price</th></tr>${acts}</table></div>` : ""}
+      ${trf ? `<h3>Transfers</h3><div class="scroll"><table><tr><th></th><th>Route</th><th>Service</th><th>Pickup</th><th>Price</th></tr>${trf}</table></div>` : ""}
+    </section>`;
+  }
+
+  // ── events ──────────────────────────────────────────────────────
+  $("#addDest").onclick = () => addDestination({});
+  $("#loadExample").onclick = loadExample;
+  $("#showJson").onclick = () => {
+    const pre = $("#jsonPreview"); pre.hidden = !pre.hidden;
+    if (!pre.hidden) pre.textContent = JSON.stringify(collect(), null, 2);
+  };
+  $("#fitForm").onsubmit = async ev => {
+    ev.preventDefault();
+    const btn = $("#submitBtn"); btn.disabled = true; $("#busy").textContent = "Searching Hotelbeds: hotels → activities → transfers…";
+    try {
+      const r = await fetch(`${API}/packages`, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(collect()) });
+      const body = await r.json();
+      if (!r.ok) {
+        const res = $("#result"); res.hidden = false;
+        res.innerHTML = `<section class="card"><h2>Request failed (${r.status})</h2><div class="err">${esc(body.error?.message || "")}</div>
+          <pre>${esc(JSON.stringify(body.error?.details || body, null, 2))}</pre></section>`;
+        res.scrollIntoView({ behavior: "smooth" });
+      } else renderResult(body);
+    } catch (e) {
+      alert("Network error: " + e.message);
+    } finally { btn.disabled = false; $("#busy").textContent = ""; }
+  };
+
+  loadExample().catch(() => addDestination({}));
+})();
+</script>
+</body>
+</html>

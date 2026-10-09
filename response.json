@@ -1,0 +1,3335 @@
+{
+  "packageId": "FIT-20261008-339EFA",
+  "status": "GENERATED",
+  "provider": "HOTELBEDS",
+  "createdAt": "2026-10-08T13:05:53.181868Z",
+  "expiresAt": "2026-10-08T13:35:53.181868Z",
+  "displayPackage": {
+    "summary": {
+      "title": "7-night trip: Dubai → Istanbul",
+      "startDate": "2026-12-10",
+      "endDate": "2026-12-17",
+      "totalNights": 7,
+      "destinations": [
+        "Dubai",
+        "Istanbul"
+      ],
+      "travellers": {
+        "adults": 2,
+        "children": 1,
+        "childAges": [
+          8
+        ]
+      },
+      "travelerType": "FAMILY",
+      "planningStyle": "MID_RANGE",
+      "sourceMarket": "PK",
+      "budget": 6000,
+      "budgetCurrency": "EUR"
+    },
+    "narrative": "Embark on a memorable 7-night family adventure in Dubai and Istanbul! Begin your journey with 4 nights in Dubai, staying at the comfortable Metropolitan Hotel Dubai (4★). Enjoy exciting experiences like a Heritage Camel Safari and breathtaking views from At The Top Burj Khalifa Level 148, with all transfers included for a hassle-free experience. Then, head to Istanbul for 3 nights at the charming Armada Hotel Old City Sultanahmet (4★). Discover the city's rich history with a Bosphorus Sunset Cruise and a full-day tour of Byzantine and Ottoman treasures, including the Blue Mosque and Hagia Sophia. Perfect for creating unforgettable family memories on your first trip abroad!",
+    "destinations": [
+      {
+        "index": 0,
+        "name": "Dubai",
+        "checkIn": "2026-12-10",
+        "checkOut": "2026-12-14",
+        "nights": 4,
+        "resolvedDestination": {
+          "code": "DXB",
+          "name": "Dubai",
+          "countryCode": "AE",
+          "zone": {
+            "code": 1,
+            "name": "Dubai",
+            "matchScore": 0.9
+          },
+          "matchScore": 1,
+          "source": "hotelbeds_content"
+        },
+        "hotel": {
+          "status": "SELECTED",
+          "selected": {
+            "optionId": "a6c1fd708e",
+            "code": 484321,
+            "name": "Metropolitan Hotel Dubai",
+            "stars": 4,
+            "category": "4 STARS",
+            "zone": "Dubai",
+            "latitude": 25.1330321,
+            "longitude": 55.2128326,
+            "address": "Sheikh Zayed Road - Exit 41, Al Thanya Street",
+            "city": "DUBAI",
+            "description": "This stylish property is situated in the city of Dubai, just an 8-minute walking distance from FGB metro station and a short driving distance from the international airport. The amazing Wild Wadi park, ideal for guests travelling with children, is about a 10-minute driving distance, and a choice of exclusive shopping malls are to be found in the surrounding area. The accommodation units feature a modern design and come complete with a large choice of premium amenities to ensure the finest living environment for guests. Gastronomy lovers will appreciate the onsite Italian restaurant whilst the English pub is the best place where to share nice moments with friends while having a glass of wine. Corporate meetings and cocktail parties can be held in the flexible meeting spaces available onsite.",
+            "images": [
+              {
+                "url": "https://photos.hotelbeds.com/giata/bigger/48/484321/484321a_hb_a_025.jpg",
+                "thumb": "https://photos.hotelbeds.com/giata/medium/48/484321/484321a_hb_a_025.jpg",
+                "type": "GEN",
+                "roomCode": null
+              },
+              {
+                "url": "https://photos.hotelbeds.com/giata/bigger/48/484321/484321a_hb_a_026.jpg",
+                "thumb": "https://photos.hotelbeds.com/giata/medium/48/484321/484321a_hb_a_026.jpg",
+                "type": "GEN",
+                "roomCode": null
+              },
+              {
+                "url": "https://photos.hotelbeds.com/giata/bigger/48/484321/484321a_hb_a_027.jpg",
+                "thumb": "https://photos.hotelbeds.com/giata/medium/48/484321/484321a_hb_a_027.jpg",
+                "type": "GEN",
+                "roomCode": null
+              },
+              {
+                "url": "https://photos.hotelbeds.com/giata/bigger/48/484321/484321a_hb_a_002.jpg",
+                "thumb": "https://photos.hotelbeds.com/giata/medium/48/484321/484321a_hb_a_002.jpg",
+                "type": "GEN",
+                "roomCode": null
+              },
+              {
+                "url": "https://photos.hotelbeds.com/giata/bigger/48/484321/484321a_hb_a_003.jpg",
+                "thumb": "https://photos.hotelbeds.com/giata/medium/48/484321/484321a_hb_a_003.jpg",
+                "type": "GEN",
+                "roomCode": null
+              },
+              {
+                "url": "https://photos.hotelbeds.com/giata/bigger/48/484321/484321a_hb_a_005.jpg",
+                "thumb": "https://photos.hotelbeds.com/giata/medium/48/484321/484321a_hb_a_005.jpg",
+                "type": "GEN",
+                "roomCode": null
+              },
+              {
+                "url": "https://photos.hotelbeds.com/giata/bigger/48/484321/484321a_hb_a_008.jpg",
+                "thumb": "https://photos.hotelbeds.com/giata/medium/48/484321/484321a_hb_a_008.jpg",
+                "type": "GEN",
+                "roomCode": null
+              },
+              {
+                "url": "https://photos.hotelbeds.com/giata/bigger/48/484321/484321a_hb_a_009.jpg",
+                "thumb": "https://photos.hotelbeds.com/giata/medium/48/484321/484321a_hb_a_009.jpg",
+                "type": "GEN",
+                "roomCode": null
+              },
+              {
+                "url": "https://photos.hotelbeds.com/giata/bigger/48/484321/484321a_hb_a_012.jpg",
+                "thumb": "https://photos.hotelbeds.com/giata/medium/48/484321/484321a_hb_a_012.jpg",
+                "type": "GEN",
+                "roomCode": null
+              },
+              {
+                "url": "https://photos.hotelbeds.com/giata/bigger/48/484321/484321a_hb_a_013.jpg",
+                "thumb": "https://photos.hotelbeds.com/giata/medium/48/484321/484321a_hb_a_013.jpg",
+                "type": "GEN",
+                "roomCode": null
+              },
+              {
+                "url": "https://photos.hotelbeds.com/giata/bigger/48/484321/484321a_hb_a_018.jpg",
+                "thumb": "https://photos.hotelbeds.com/giata/medium/48/484321/484321a_hb_a_018.jpg",
+                "type": "GEN",
+                "roomCode": null
+              },
+              {
+                "url": "https://photos.hotelbeds.com/giata/bigger/48/484321/484321a_hb_a_019.jpg",
+                "thumb": "https://photos.hotelbeds.com/giata/medium/48/484321/484321a_hb_a_019.jpg",
+                "type": "GEN",
+                "roomCode": null
+              }
+            ],
+            "web": "www.metropolitanhoteldubai.com",
+            "phones": [
+              "0097143430000",
+              "0097143430000",
+              "0097143430000"
+            ],
+            "checkIn": "2026-12-10",
+            "checkOut": "2026-12-14",
+            "nights": 4,
+            "rooms": [
+              {
+                "roomName": "Deluxe Room King",
+                "roomCode": "DBT.DX-1",
+                "board": "BED AND BREAKFAST",
+                "boardCode": "BB",
+                "rooms": 1,
+                "adults": 2,
+                "children": 1,
+                "childAges": [
+                  8
+                ],
+                "rateClass": "NOR",
+                "cancellationPolicies": [
+                  {
+                    "amount": 327.84,
+                    "from": "2026-12-08T23:59:00+04:00"
+                  },
+                  {
+                    "amount": 1158.76,
+                    "from": "2026-12-09T23:59:00+04:00"
+                  }
+                ],
+                "offers": [
+                  {
+                    "code": "9001",
+                    "name": "Child discount",
+                    "amount": "-579.38"
+                  }
+                ],
+                "promotions": null
+              }
+            ],
+            "price": {
+              "net": 1158.76,
+              "selling": 1158.76,
+              "currency": "EUR",
+              "perNight": 289.69,
+              "mandatorySellingPrice": false
+            },
+            "refundable": true,
+            "freeCancellationUntil": "2026-12-08T23:59:00+04:00",
+            "score": 82.83,
+            "scoreBreakdown": {
+              "category": 25,
+              "price": 11.83,
+              "withinBudget": 5,
+              "roomType": 12,
+              "bed": 4,
+              "location": 15,
+              "refundable": 8,
+              "content": 2
+            }
+          },
+          "alternatives": [
+            {
+              "optionId": "c3292656bb",
+              "code": 235795,
+              "name": "Ramada Hotel & Suites by Wyndham JBR",
+              "stars": 4,
+              "category": "4 STARS",
+              "zone": "Dubai",
+              "latitude": 25.072422,
+              "longitude": 55.129566,
+              "address": "Shams Cluster 3 The Walk,Jumeirah Beach Residence",
+              "city": "Dubai",
+              "description": "Ramada Hotel and Suites is located in one of the most vibrant and popular locations in Dubai - The Walk, Jumeirah Beach Residence. Surrounded by a variety of leisure, dining, shopping and entertainment options. It is a 5-minute walk to Jumeira Beach and highly accessible. It features spacious deluxe rooms, one and two-bedroom suites meticulously designed with bright accents. Its magnificent penthouse offers spectacular panoramic views of Dubai Marina and the Arabian Gulf. Family one-bedroom apartments are also available for big families with tastefully unique accommodation and great value. ",
+              "images": [
+                {
+                  "url": "https://photos.hotelbeds.com/giata/bigger/23/235795/235795a_hb_a_001.jpg?20250228141935?20250506133606",
+                  "thumb": "https://photos.hotelbeds.com/giata/medium/23/235795/235795a_hb_a_001.jpg?20250228141935?20250506133606",
+                  "type": "GEN",
+                  "roomCode": null
+                },
+                {
+                  "url": "https://photos.hotelbeds.com/giata/bigger/23/235795/235795a_hb_l_001.jpg?20250228141937?20250506133607",
+                  "thumb": "https://photos.hotelbeds.com/giata/medium/23/235795/235795a_hb_l_001.jpg?20250228141937?20250506133607",
+                  "type": "COM",
+                  "roomCode": null
+                },
+                {
+                  "url": "https://photos.hotelbeds.com/giata/bigger/23/235795/235795a_hb_l_002.jpg?20250228141937?20250506133607",
+                  "thumb": "https://photos.hotelbeds.com/giata/medium/23/235795/235795a_hb_l_002.jpg?20250228141937?20250506133607",
+                  "type": "COM",
+                  "roomCode": null
+                },
+                {
+                  "url": "https://photos.hotelbeds.com/giata/bigger/23/235795/235795a_hb_l_003_20260327_002259.jpg",
+                  "thumb": "https://photos.hotelbeds.com/giata/medium/23/235795/235795a_hb_l_003_20260327_002259.jpg",
+                  "type": "COM",
+                  "roomCode": null
+                },
+                {
+                  "url": "https://photos.hotelbeds.com/giata/bigger/23/235795/235795a_hb_l_004_20260327_002300.jpg",
+                  "thumb": "https://photos.hotelbeds.com/giata/medium/23/235795/235795a_hb_l_004_20260327_002300.jpg",
+                  "type": "COM",
+                  "roomCode": null
+                },
+                {
+                  "url": "https://photos.hotelbeds.com/giata/bigger/23/235795/235795a_hb_l_005_20260327_002307.jpg",
+                  "thumb": "https://photos.hotelbeds.com/giata/medium/23/235795/235795a_hb_l_005_20260327_002307.jpg",
+                  "type": "COM",
+                  "roomCode": null
+                },
+                {
+                  "url": "https://photos.hotelbeds.com/giata/bigger/23/235795/235795a_hb_w_012.jpg?20250102182107?20250506133606",
+                  "thumb": "https://photos.hotelbeds.com/giata/medium/23/235795/235795a_hb_w_012.jpg?20250102182107?20250506133606",
+                  "type": "HAB",
+                  "roomCode": null
+                },
+                {
+                  "url": "https://photos.hotelbeds.com/giata/bigger/23/235795/235795a_hb_w_001.jpg?20250228141935?20250506133606",
+                  "thumb": "https://photos.hotelbeds.com/giata/medium/23/235795/235795a_hb_w_001.jpg?20250228141935?20250506133606",
+                  "type": "HAB",
+                  "roomCode": null
+                },
+                {
+                  "url": "https://photos.hotelbeds.com/giata/bigger/23/235795/235795a_hb_w_010.jpg?20250228141935?20250506133606",
+                  "thumb": "https://photos.hotelbeds.com/giata/medium/23/235795/235795a_hb_w_010.jpg?20250228141935?20250506133606",
+                  "type": "HAB",
+                  "roomCode": null
+                },
+                {
+                  "url": "https://photos.hotelbeds.com/giata/bigger/23/235795/235795a_hb_w_004.jpg?20250228141935?20250506133606",
+                  "thumb": "https://photos.hotelbeds.com/giata/medium/23/235795/235795a_hb_w_004.jpg?20250228141935?20250506133606",
+                  "type": "HAB",
+                  "roomCode": null
+                },
+                {
+                  "url": "https://photos.hotelbeds.com/giata/bigger/23/235795/235795a_hb_w_009.jpg?20250228141935?20250506133606",
+                  "thumb": "https://photos.hotelbeds.com/giata/medium/23/235795/235795a_hb_w_009.jpg?20250228141935?20250506133606",
+                  "type": "HAB",
+                  "roomCode": null
+                },
+                {
+                  "url": "https://photos.hotelbeds.com/giata/bigger/23/235795/235795a_hb_w_002.jpg?20250228141936?20250506133607",
+                  "thumb": "https://photos.hotelbeds.com/giata/medium/23/235795/235795a_hb_w_002.jpg?20250228141936?20250506133607",
+                  "type": "HAB",
+                  "roomCode": null
+                }
+              ],
+              "web": "www.hawthornsuitesdubai.com",
+              "phones": [
+                "0043999979",
+                "0043999979",
+                "+97143992661"
+              ],
+              "checkIn": "2026-12-10",
+              "checkOut": "2026-12-14",
+              "nights": 4,
+              "rooms": [
+                {
+                  "roomName": "1 King Bed Deluxe Room",
+                  "roomCode": "DBL.DX",
+                  "board": "BED AND BREAKFAST",
+                  "boardCode": "BB",
+                  "rooms": 1,
+                  "adults": 2,
+                  "children": 1,
+                  "childAges": [
+                    8
+                  ],
+                  "rateClass": "NOR",
+                  "cancellationPolicies": [
+                    {
+                      "amount": 1053.74,
+                      "from": "2026-12-02T23:59:00+04:00"
+                    }
+                  ],
+                  "offers": [
+                    {
+                      "code": "9001",
+                      "name": "Child discount",
+                      "amount": "-210.76"
+                    }
+                  ],
+                  "promotions": null
+                }
+              ],
+              "price": {
+                "net": 1053.74,
+                "selling": 1053.74,
+                "currency": "EUR",
+                "perNight": 263.44,
+                "mandatorySellingPrice": false
+              },
+              "refundable": true,
+              "freeCancellationUntil": "2026-12-02T23:59:00+04:00",
+              "score": 82.8,
+              "scoreBreakdown": {
+                "category": 25,
+                "price": 11.8,
+                "withinBudget": 5,
+                "roomType": 12,
+                "bed": 4,
+                "location": 15,
+                "refundable": 8,
+                "content": 2
+              }
+            },
+            {
+              "optionId": "387481d41a",
+              "code": 59265,
+              "name": "Millennium Airport Hotel Dubai",
+              "stars": 4,
+              "category": "4 STARS",
+              "zone": "Dubai",
+              "latitude": 25.248767,
+              "longitude": 55.343034,
+              "address": "Airport Road - Casablanca St.",
+              "city": "DUBAI-AIRPORT",
+              "description": "Millennium Airport Hotel Dubai is an award-winning contemporary lifestyle hotel that combines comfort, convenience, and exceptional hospitality in one of Dubai's most accessible locations. Just five minutes from Dubai International Airport (DXB) and within walking distance of Al Garhoud Metro Station, the hotel offers seamless access to the city's major business districts, shopping destinations, and iconic attractions, making it an ideal choice for both business and leisure travellers. \n\nRecognised for its outstanding service and commitment to excellence, the hotel has been named the Middle East's Leading Airport Hotel at the World Travel Awards 2025 for the thirteenth time since 2008. It also received the prestigious title of United Arab Emirates' Leading Airport Hotel 2025, reinforcing its reputation as one of the region's premier hospitality destinations. \n\nThe hotel features 341 spacious, elegantly appointed, non-smoking guest rooms and suites, including Superior, Deluxe, Grand Rooms, and Executive Deluxe Suites. \n\nGuests can enjoy an exceptional culinary experience across nine distinctive restaurants and bars, serving a variety of international cuisines, including Italian, Mexican, Japanese, Indian, and international buffet selections. The hotel also offers vibrant nightlife venues, providing memorable dining and entertainment experiences. \n\nLeisure facilities include a large outdoor swimming pool with a pool bar, beautifully landscaped gardens, a children's playground, a spa, a beauty salon, and a fully equipped fitness centre. The hotel also offers versatile meeting and event venues for conferences, weddings, and social celebrations, including a ballroom, 7 meeting venues supported by dedicated event professionals. \n\nThe Millennium Airport Hotel Dubai continues to be a preferred destination for travellers seeking comfort, convenience, and an outstanding stay in the heart of Dubai. ",
+              "images": [
+                {
+                  "url": "https://photos.hotelbeds.com/giata/bigger/05/059265/059265a_hb_a_029_20260702_093315.jpg",
+                  "thumb": "https://photos.hotelbeds.com/giata/medium/05/059265/059265a_hb_a_029_20260702_093315.jpg",
+                  "type": "GEN",
+                  "roomCode": null
+                },
+                {
+                  "url": "https://photos.hotelbeds.com/giata/bigger/05/059265/059265a_hb_a_028_20260702_092854.jpg",
+                  "thumb": "https://photos.hotelbeds.com/giata/medium/05/059265/059265a_hb_a_028_20260702_092854.jpg",
+                  "type": "GEN",
+                  "roomCode": null
+                },
+                {
+                  "url": "https://photos.hotelbeds.com/giata/bigger/05/059265/059265a_hb_a_002.jpg",
+                  "thumb": "https://photos.hotelbeds.com/giata/medium/05/059265/059265a_hb_a_002.jpg",
+                  "type": "GEN",
+                  "roomCode": null
+                },
+                {
+                  "url": "https://photos.hotelbeds.com/giata/bigger/05/059265/059265a_hb_a_001.jpg",
+                  "thumb": "https://photos.hotelbeds.com/giata/medium/05/059265/059265a_hb_a_001.jpg",
+                  "type": "GEN",
+                  "roomCode": null
+                },
+                {
+                  "url": "https://photos.hotelbeds.com/giata/bigger/05/059265/059265a_hb_a_025.jpg",
+                  "thumb": "https://photos.hotelbeds.com/giata/medium/05/059265/059265a_hb_a_025.jpg",
+                  "type": "GEN",
+                  "roomCode": null
+                },
+                {
+                  "url": "https://photos.hotelbeds.com/giata/bigger/05/059265/059265a_hb_a_026_20260702_092831.jpg",
+                  "thumb": "https://photos.hotelbeds.com/giata/medium/05/059265/059265a_hb_a_026_20260702_092831.jpg",
+                  "type": "GEN",
+                  "roomCode": null
+                },
+                {
+                  "url": "https://photos.hotelbeds.com/giata/bigger/05/059265/059265a_hb_a_027_20260702_092843.jpg",
+                  "thumb": "https://photos.hotelbeds.com/giata/medium/05/059265/059265a_hb_a_027_20260702_092843.jpg",
+                  "type": "GEN",
+                  "roomCode": null
+                },
+                {
+                  "url": "https://photos.hotelbeds.com/giata/bigger/05/059265/059265a_hb_l_004_20260702_093502.jpg",
+                  "thumb": "https://photos.hotelbeds.com/giata/medium/05/059265/059265a_hb_l_004_20260702_093502.jpg",
+                  "type": "COM",
+                  "roomCode": null
+                },
+                {
+                  "url": "https://photos.hotelbeds.com/giata/bigger/05/059265/059265a_hb_l_005_20260702_093617.jpg",
+                  "thumb": "https://photos.hotelbeds.com/giata/medium/05/059265/059265a_hb_l_005_20260702_093617.jpg",
+                  "type": "COM",
+                  "roomCode": null
+                },
+                {
+                  "url": "https://photos.hotelbeds.com/giata/bigger/05/059265/059265a_hb_l_002.jpg",
+                  "thumb": "https://photos.hotelbeds.com/giata/medium/05/059265/059265a_hb_l_002.jpg",
+                  "type": "COM",
+                  "roomCode": null
+                },
+                {
+                  "url": "https://photos.hotelbeds.com/giata/bigger/05/059265/059265a_hb_w_022_20260702_112941.jpg",
+                  "thumb": "https://photos.hotelbeds.com/giata/medium/05/059265/059265a_hb_w_022_20260702_112941.jpg",
+                  "type": "HAB",
+                  "roomCode": null
+                },
+                {
+                  "url": "https://photos.hotelbeds.com/giata/bigger/05/059265/059265a_hb_w_023_20260702_112946.jpg",
+                  "thumb": "https://photos.hotelbeds.com/giata/medium/05/059265/059265a_hb_w_023_20260702_112946.jpg",
+                  "type": "HAB",
+                  "roomCode": null
+                }
+              ],
+              "web": "https://www.millenniumhotels.com/en/dubai/millennium-airport-hotel-dubai/#home",
+              "phones": [
+                "+97147028899",
+                "+97147028888",
+                "+97142821227"
+              ],
+              "checkIn": "2026-12-10",
+              "checkOut": "2026-12-14",
+              "nights": 4,
+              "rooms": [
+                {
+                  "roomName": "Deluxe Room with One King Bed-Double",
+                  "roomCode": "DBT.DX",
+                  "board": "BED AND BREAKFAST",
+                  "boardCode": "BB",
+                  "rooms": 1,
+                  "adults": 2,
+                  "children": 1,
+                  "childAges": [
+                    8
+                  ],
+                  "rateClass": "NOR",
+                  "cancellationPolicies": [
+                    {
+                      "amount": 147.72,
+                      "from": "2026-12-08T23:59:00+04:00"
+                    }
+                  ],
+                  "offers": [
+                    {
+                      "code": "9001",
+                      "name": "Child discount",
+                      "amount": "-228.56"
+                    }
+                  ],
+                  "promotions": null
+                }
+              ],
+              "price": {
+                "net": 551.42,
+                "selling": 551.42,
+                "currency": "EUR",
+                "perNight": 137.85,
+                "mandatorySellingPrice": false
+              },
+              "refundable": true,
+              "freeCancellationUntil": "2026-12-08T23:59:00+04:00",
+              "score": 82.66,
+              "scoreBreakdown": {
+                "category": 25,
+                "price": 11.66,
+                "withinBudget": 5,
+                "roomType": 12,
+                "bed": 4,
+                "location": 15,
+                "refundable": 8,
+                "content": 2
+              }
+            },
+            {
+              "optionId": "c818715c6b",
+              "code": 59249,
+              "name": "Howard Johnson Plaza by Wyndham Dubai Deira",
+              "stars": 4,
+              "category": "4 STARS",
+              "zone": "Dubai",
+              "latitude": 25.265105,
+              "longitude": 55.322876,
+              "address": "26 B Street Al Rigga Al Muraqqabat Deira, 7",
+              "city": "DUBAI",
+              "description": "Located in the centre of the Deira district, this luxurious hotel is 200 metres from the Al Rigga metro station and a 10-minute drive from Dubai International Airport. All rooms are spacious and elegantly furnished, equipped with free Wi-Fi and a wide choice of modern conveniences to guarantee a truly memorable stay. High speed Wi-Fi is available in all areas with unlimited device and is free of charge. At this property guests can enjoy a wide ranging buffet of international cuisine all day, and the coffee shop also offers a selection of juices, coffees, pastries and cookies. Guests can relax in the hot tub, visit the fitness centre to enjoy an invigorating workout or enjoy the rooftop pool, as well as experience various spa treatments and massages. This stunning establishment is ideally located for easy access to Deira and Al Ghurair shopping malls, Dubai Creek gold and yacht club and Gold souq, amongst other nearby attractions. The hotel offers a daily shuttle service to the beach and major shopping malls in Dubai. Free private on-site parking is also available. ",
+              "images": [
+                {
+                  "url": "https://photos.hotelbeds.com/giata/bigger/05/059249/059249a_hb_a_001.jpg",
+                  "thumb": "https://photos.hotelbeds.com/giata/medium/05/059249/059249a_hb_a_001.jpg",
+                  "type": "GEN",
+                  "roomCode": null
+                },
+                {
+                  "url": "https://photos.hotelbeds.com/giata/bigger/05/059249/059249a_hb_a_002.jpg",
+                  "thumb": "https://photos.hotelbeds.com/giata/medium/05/059249/059249a_hb_a_002.jpg",
+                  "type": "GEN",
+                  "roomCode": null
+                },
+                {
+                  "url": "https://photos.hotelbeds.com/giata/bigger/05/059249/059249a_hb_a_004.jpg",
+                  "thumb": "https://photos.hotelbeds.com/giata/medium/05/059249/059249a_hb_a_004.jpg",
+                  "type": "GEN",
+                  "roomCode": null
+                },
+                {
+                  "url": "https://photos.hotelbeds.com/giata/bigger/05/059249/059249a_hb_a_005.jpg",
+                  "thumb": "https://photos.hotelbeds.com/giata/medium/05/059249/059249a_hb_a_005.jpg",
+                  "type": "GEN",
+                  "roomCode": null
+                },
+                {
+                  "url": "https://photos.hotelbeds.com/giata/bigger/05/059249/059249a_hb_a_006.jpg",
+                  "thumb": "https://photos.hotelbeds.com/giata/medium/05/059249/059249a_hb_a_006.jpg",
+                  "type": "GEN",
+                  "roomCode": null
+                },
+                {
+                  "url": "https://photos.hotelbeds.com/giata/bigger/05/059249/059249a_hb_a_007_20250912_135255.jpg",
+                  "thumb": "https://photos.hotelbeds.com/giata/medium/05/059249/059249a_hb_a_007_20250912_135255.jpg",
+                  "type": "GEN",
+                  "roomCode": null
+                },
+                {
+                  "url": "https://photos.hotelbeds.com/giata/bigger/05/059249/059249a_hb_l_001.jpg",
+                  "thumb": "https://photos.hotelbeds.com/giata/medium/05/059249/059249a_hb_l_001.jpg",
+                  "type": "COM",
+                  "roomCode": null
+                },
+                {
+                  "url": "https://photos.hotelbeds.com/giata/bigger/05/059249/059249a_hb_l_002.jpg",
+                  "thumb": "https://photos.hotelbeds.com/giata/medium/05/059249/059249a_hb_l_002.jpg",
+                  "type": "COM",
+                  "roomCode": null
+                },
+                {
+                  "url": "https://photos.hotelbeds.com/giata/bigger/05/059249/059249a_hb_l_003.jpg",
+                  "thumb": "https://photos.hotelbeds.com/giata/medium/05/059249/059249a_hb_l_003.jpg",
+                  "type": "COM",
+                  "roomCode": null
+                },
+                {
+                  "url": "https://photos.hotelbeds.com/giata/bigger/05/059249/059249a_hb_w_002.jpg",
+                  "thumb": "https://photos.hotelbeds.com/giata/medium/05/059249/059249a_hb_w_002.jpg",
+                  "type": "HAB",
+                  "roomCode": null
+                },
+                {
+                  "url": "https://photos.hotelbeds.com/giata/bigger/05/059249/059249a_hb_w_004.jpg",
+                  "thumb": "https://photos.hotelbeds.com/giata/medium/05/059249/059249a_hb_w_004.jpg",
+                  "type": "HAB",
+                  "roomCode": null
+                },
+                {
+                  "url": "https://photos.hotelbeds.com/giata/bigger/05/059249/059249a_hb_w_005.jpg",
+                  "thumb": "https://photos.hotelbeds.com/giata/medium/05/059249/059249a_hb_w_005.jpg",
+                  "type": "HAB",
+                  "roomCode": null
+                }
+              ],
+              "web": null,
+              "phones": [
+                "+97145970000",
+                "+97145970000",
+                "+97145970000"
+              ],
+              "checkIn": "2026-12-10",
+              "checkOut": "2026-12-14",
+              "nights": 4,
+              "rooms": [
+                {
+                  "roomName": "1 King Bed, Deluxe Room, Non-Smoking",
+                  "roomCode": "DBL.DX",
+                  "board": "BED AND BREAKFAST",
+                  "boardCode": "BB",
+                  "rooms": 1,
+                  "adults": 2,
+                  "children": 1,
+                  "childAges": [
+                    8
+                  ],
+                  "rateClass": "NOR",
+                  "cancellationPolicies": [
+                    {
+                      "amount": 127.11,
+                      "from": "2026-12-07T23:59:00+04:00"
+                    }
+                  ],
+                  "offers": [
+                    {
+                      "code": "9002",
+                      "name": "Early Booking discount",
+                      "amount": "-57.56"
+                    },
+                    {
+                      "code": "9001",
+                      "name": "Child discount",
+                      "amount": "-265.04"
+                    }
+                  ],
+                  "promotions": null
+                }
+              ],
+              "price": {
+                "net": 517.96,
+                "selling": 517.96,
+                "currency": "EUR",
+                "perNight": 129.49,
+                "mandatorySellingPrice": false
+              },
+              "refundable": true,
+              "freeCancellationUntil": "2026-12-07T23:59:00+04:00",
+              "score": 82.65,
+              "scoreBreakdown": {
+                "category": 25,
+                "price": 11.65,
+                "withinBudget": 5,
+                "roomType": 12,
+                "bed": 4,
+                "location": 15,
+                "refundable": 8,
+                "content": 2
+              }
+            }
+          ],
+          "candidatesFound": 60
+        },
+        "activities": {
+          "status": "MATCHED",
+          "items": [
+            {
+              "itemId": "ACT-452b79e3",
+              "status": "MATCHED",
+              "requested": {
+                "excursion": "Desert safari",
+                "excursionType": "ADVENTURE",
+                "excursionDate": "2026-12-11",
+                "dayPart": "EVENING",
+                "adultCount": 2,
+                "childCount": 1
+              },
+              "date": "2026-12-11",
+              "from": "2026-12-11",
+              "to": "2026-12-11",
+              "activity": {
+                "code": "E-E10-A1MANO0279",
+                "name": "Heritage Camel Safari",
+                "type": "TICKET",
+                "description": "Start your adventure by exploring the Desert on a back of a Camel. Watch an entertaining falcon show and see how these agile birds fly to lures. Take in the stunning views of the Arabian sun setting over the golden sand dunes while the professional falconer presents the magnificent falcon to soar the skies. Learn about the cultural significance of falconry in Dubai and get great photo opportunities in this magical desert setting. Arrive at an authentic Bedouin camp to enjoy an unforgettable evening immersed in cultural activities like Arabic coffee and bread making demonstrations, camel…",
+                "images": [
+                  "https://media.activitiesbank.com/59944/ENG/XL/Heritage%20Safari%20by%20Camel%20-%20Platinum%20Heritage%20%281%29.jpg",
+                  "https://media.activitiesbank.com/59944/ENG/XL/Heritage%20Safari%20by%20Camel%20-%20Platinum%20Heritage%20%2832%29.JPG",
+                  "https://media.activitiesbank.com/59944/ENG/XL/Heritage%20Safari%20by%20Camel%20-%20Platinum%20Heritage%20%2835%29.jpg",
+                  "https://media.activitiesbank.com/59944/ENG/XL/Heritage%20Safari%20by%20vintage%20Land%20Rover%20-%20Platinum%20Heritage%20%2812%29.jpg",
+                  "https://media.activitiesbank.com/59944/ENG/XL/Heritage%20Safari%20by%20vintage%20Land%20Rover%20-%20Platinum%20Heritage%20%2822%29.jpg",
+                  "https://media.activitiesbank.com/59944/ENG/XL/Conservation%20Drive%20%26%20Breakfast%20at%20Al%20Maha%20-%20Platinum%20Heritage%20%2810%29.jpg"
+                ],
+                "durationHours": 24
+              },
+              "modality": {
+                "code": "1879594170#PRIVATE TO",
+                "name": null,
+                "duration": {
+                  "value": 1,
+                  "metric": "DAYS"
+                },
+                "amountUnitType": "SERVICE"
+              },
+              "rate": {
+                "rateCode": "STANDARD",
+                "rateClass": "NOR",
+                "freeCancellation": true
+              },
+              "session": null,
+              "language": "eng",
+              "languagesOffered": [
+                "eng"
+              ],
+              "pax": {
+                "adults": 2,
+                "childAges": [
+                  8
+                ]
+              },
+              "price": {
+                "net": 665.25,
+                "selling": 665.25,
+                "currency": "EUR",
+                "markupPct": 0,
+                "basis": "NET_PLUS_MARKUP"
+              },
+              "cancellationPolicies": [],
+              "questions": [
+                {
+                  "code": "HOTEL",
+                  "text": "Please provide the name of your hotel",
+                  "required": true
+                }
+              ],
+              "matchScore": 99.66,
+              "matchReasons": {
+                "text": 56.76,
+                "type": 15,
+                "dayPart": 8,
+                "price": 9.9,
+                "date": 10
+              },
+              "alternatives": [
+                {
+                  "activityCode": "E-E10-A0MANO0236",
+                  "name": "Heritage Safari by Vintage G Class with BBQ at Al Marmoom Oasis",
+                  "modalityCode": "2074937200#PRIVATE",
+                  "modalityName": "Private Safari",
+                  "date": "2026-12-11",
+                  "score": 99.59,
+                  "price": {
+                    "amount": 614.61,
+                    "currency": "EUR"
+                  }
+                },
+                {
+                  "activityCode": "E-E10-A0MANO0116",
+                  "name": "Platinum Desert Safari",
+                  "modalityCode": "617983769#TOUR",
+                  "modalityName": "Tour",
+                  "date": "2026-12-11",
+                  "score": 99.41,
+                  "price": {
+                    "amount": 1127.88,
+                    "currency": "EUR"
+                  }
+                }
+              ],
+              "comment": "With BBQ dinner"
+            },
+            {
+              "itemId": "ACT-31be0963",
+              "status": "MATCHED",
+              "requested": {
+                "excursion": "Burj Khalifa",
+                "excursionType": "SIGHTSEEING",
+                "excursionDate": "2026-12-12",
+                "dayPart": "MORNING",
+                "adultCount": 2,
+                "childCount": 1
+              },
+              "date": "2026-12-12",
+              "from": "2026-12-12",
+              "to": "2026-12-12",
+              "activity": {
+                "code": "E-E10-A1MANO0273",
+                "name": "At The Top Burj Khalifa Level 148 with Transfer",
+                "type": "TICKET",
+                "description": "Get a birds-eye view of the city as you ascend to the 148th floor of the highest building in the world on this incredible and unforgettable experience. Visit levels 148, 124 &amp; 125. Our 1-hour long expedition to Burj Khalifa – the modern world’s most exceptional architectural marvel - will give you ample time to loosen up and enjoy Dubai’s spellbinding views and breathtaking locales from a prominent position. The ground floor of this majestic steel-based structure houses the ”Dubai Mall” – the world’s largest shopping mall which in turn accommodates the world’s biggest aquarium. One of…",
+                "images": [
+                  "https://media.activitiesbank.com/59680/ENG/XL/41321_4.jpg",
+                  "https://media.activitiesbank.com/59680/ENG/XL/41321_1.jpg",
+                  "https://media.activitiesbank.com/59680/ENG/XL/41321_3.jpg",
+                  "https://media.activitiesbank.com/59680/ENG/XL/41321_5.jpg",
+                  "https://media.activitiesbank.com/59680/ENG/XL/41321_6.jpg"
+                ],
+                "durationHours": 24
+              },
+              "modality": {
+                "code": "1008809841#PVT-RET-PE",
+                "name": "Private Return Transfer - Peak",
+                "duration": {
+                  "value": 1,
+                  "metric": "DAYS"
+                },
+                "amountUnitType": "PAX"
+              },
+              "rate": {
+                "rateCode": "STANDARD",
+                "rateClass": "NOR",
+                "freeCancellation": false
+              },
+              "session": null,
+              "language": null,
+              "languagesOffered": [],
+              "pax": {
+                "adults": 2,
+                "childAges": [
+                  8
+                ]
+              },
+              "price": {
+                "net": 492.93,
+                "selling": 492.93,
+                "currency": "EUR",
+                "markupPct": 0,
+                "basis": "NET_PLUS_MARKUP"
+              },
+              "cancellationPolicies": [
+                {
+                  "dateFrom": "2026-12-08T00:00:00.000Z",
+                  "amount": 492.93
+                }
+              ],
+              "questions": [
+                {
+                  "code": "HOTEL",
+                  "text": "Please provide the name of your hotel",
+                  "required": true
+                },
+                {
+                  "code": "PHONENUMBER",
+                  "text": "Guests telephone with international code required",
+                  "required": true
+                }
+              ],
+              "matchScore": 99,
+              "matchReasons": {
+                "text": 53.14,
+                "type": 15,
+                "dayPart": 8,
+                "family": 4,
+                "price": 8.86,
+                "date": 10
+              },
+              "alternatives": [
+                {
+                  "activityCode": "E-E10-AE-DXBD42",
+                  "name": "Dual, Trio and Mega Combo Specials",
+                  "modalityCode": "626536185#HB-FJEN4",
+                  "modalityName": "Dubai City Tour with Ferrari World Trip",
+                  "date": "2026-12-12",
+                  "score": 92.58,
+                  "price": {
+                    "amount": 417.57,
+                    "currency": "EUR"
+                  }
+                },
+                {
+                  "activityCode": "E-E10-A1MANO0465",
+                  "name": "Stopover Dubai from Airport - Private Tour",
+                  "modalityCode": "1425885013#GENERAL",
+                  "modalityName": "Tour",
+                  "date": "2026-12-12",
+                  "score": 89.4,
+                  "price": {
+                    "amount": 153.75,
+                    "currency": "EUR"
+                  }
+                }
+              ]
+            }
+          ],
+          "suggested": [
+            {
+              "itemId": "ACT-7a2b95d8",
+              "status": "SUGGESTED",
+              "isSuggested": true,
+              "date": "2026-12-13",
+              "from": "2026-12-13",
+              "to": "2026-12-13",
+              "activity": {
+                "code": "E-E10-A1SUNO0282",
+                "name": "Dubai Marina Yacht - Shared Tour",
+                "type": "TICKET",
+                "description": "There is good news for those wanting to experience a Luxury Yacht Charter and explore the wonders of Dubai from the Sea without the price tag or headache of getting guests together. The treats don’t stop there. Each charter is fully inclusive of a red carpet entrance, personal service from our qualified crew with fresh juices, soft drinks and water and a choice of Breakfast or a delicious BBQ cooked live on board, simply show up and enjoy. Meet like – minded people and spend some quality time socializing and networking on board Xclusive’s latest sharing yacht experience. The 64ft bluewater…",
+                "images": [
+                  "https://media.activitiesbank.com/58417/ENG/XL/YS%202.jpg",
+                  "https://media.activitiesbank.com/58417/ENG/XL/IMG_1826%2011%201.jpg",
+                  "https://media.activitiesbank.com/58417/ENG/XL/YS.jpg"
+                ],
+                "durationHours": 24
+              },
+              "modality": {
+                "code": "118266448#AFTERNOON",
+                "name": "Afternoon Tour",
+                "duration": {
+                  "value": 1,
+                  "metric": "DAYS"
+                },
+                "amountUnitType": "PAX"
+              },
+              "rate": {
+                "rateCode": "STANDARD",
+                "rateClass": "NOR",
+                "freeCancellation": false
+              },
+              "session": {
+                "code": "14:00",
+                "name": "14:00"
+              },
+              "language": "eng",
+              "languagesOffered": [
+                "eng"
+              ],
+              "pax": {
+                "adults": 2,
+                "childAges": [
+                  8
+                ]
+              },
+              "price": {
+                "net": 173.78,
+                "selling": 173.78,
+                "currency": "EUR",
+                "markupPct": 0,
+                "basis": "NET_PLUS_MARKUP"
+              },
+              "cancellationPolicies": [
+                {
+                  "dateFrom": "2026-12-12T00:00:00.000Z",
+                  "amount": 173.78
+                }
+              ],
+              "questions": [],
+              "matchScore": 22.55,
+              "matchReasons": {
+                "family": 8,
+                "sightseeing": 8,
+                "price": 6.55
+              }
+            }
+          ]
+        },
+        "transfers": {
+          "status": "SELECTED",
+          "arrival": {
+            "itemId": "TRF-88e9f0dc",
+            "direction": "ARRIVAL",
+            "status": "SELECTED",
+            "reason": null,
+            "from": {
+              "type": "IATA",
+              "code": "DXB",
+              "name": "Dubai International Airport"
+            },
+            "to": {
+              "type": "ATLAS",
+              "code": "484321",
+              "name": "Metropolitan Hotel Dubai"
+            },
+            "requestedDateTime": "2026-12-10T14:30:00",
+            "dateTimeAssumed": false,
+            "travelMode": "FLIGHT",
+            "selected": {
+              "optionId": "e7aef2394f",
+              "transferType": "PRIVATE",
+              "vehicle": {
+                "code": "MNBS",
+                "name": "Minibus"
+              },
+              "category": {
+                "code": "STND",
+                "name": "Standard"
+              },
+              "maxPaxCapacity": 8,
+              "pickup": {
+                "date": "2026-12-10",
+                "time": "14:30:00",
+                "address": null,
+                "town": null,
+                "description": "FINDING YOUR DRIVER\n\nTerminal 1:  Exit INTO the arrivals hall in the designated waiting area where a representative will be waiting, holding a sign with “KOI” on it. You will be escorted to your car at the parking pickup point (approx. 3-5 min walk). Please be advised there may be a short wait before the escort.\n\nTerminal 2: Exit INTO the arrivals hall in the designated waiting area where a representative will be waiting, holding a sign with your name on it.\n\nTerminal 3: Exit INTO the arrivals hall and proceed to the greeting area near Boots Pharmacy, where your representative will be waiting holding a sign with “KOI” on it. You will be escorted to the car at the parking pickup point (approx. 3-5 min walk). A short wait may be required.\n\nIdentify yourself by showing this confirmation to your Supplier, for whom we act as a booking agent.\n\nImportant Note: Your driver will arrive at the airport 30 minutes AFTER the flight has landed, this is to allow for the lengthy process of reaching the arrivals hall. Your driver will then wait for a maximum of a further 60 minutes upon their arrival if you have booked a Standard Service, and 75 min if you have booked a Premium Service. If you arrive before the 30 minutes, please contact the supplier on their office or emergency number below, advise that you are ready to be transferred and wait for the driver in the arrivals hall.\n\nIn the event of delays exceeding your included waiting time, you must call the supplier. There are 60 minutes of wait time included from your flight landing/cruise disembarkation time/train arrival time, plus any additional waiting arrangements specified in your instructions. The supplier will make every effort to accommodate your transfer; however, if your included waiting time has expired, any continued service will be at the supplier's discretion.\n\nIF YOU CAN'T LOCATE YOUR DRIVER, please contact them directly by clicking on this link https://hbd.htxstaging.com.\nYou will need an internet or mobile phone connection to be able to call/message your driver.\n\nPlease don't attempt to contact your driver until you are at the agreed meeting point as, with the best intentions of providing you with the most efficient service, driver information is subject to change. If you are unable to locate your driver using CheckPickup, contact your supplier for assistance. Do not leave without having contacted your supplier using the details below first.\n\nDISCLAIMER HolidayTaxis Group Limited (part of HBX Group) processes your personal data for the purpose of providing you with contracted travel services. For more information about how we process your personal data, please refer to the Privacy Policy. You have the right to access, rectify, delete, and restrict the processing of your data, as well as other rights recognized by applicable law.",
+                "checkPickup": {
+                  "mustCheckPickupTime": false,
+                  "url": null,
+                  "hoursBeforeConsulting": null
+                }
+              },
+              "price": {
+                "net": 43.65,
+                "selling": 43.65,
+                "currency": "EUR",
+                "markupPct": 0,
+                "basis": "NET_PLUS_MARKUP"
+              },
+              "cancellationPolicies": [
+                {
+                  "amount": 43.65,
+                  "from": "2026-12-09T14:30:00",
+                  "currency": "EUR"
+                }
+              ],
+              "remarks": [
+                {
+                  "type": "CONTRACT",
+                  "description": "FINDING YOUR DRIVER\n\nTerminal 1:  Exit INTO the arrivals hall in the designated waiting area where a representative will be waiting, holding a sign with “KOI” on it. You will be escorted to your car at the parking pickup point (approx. 3-5 min walk). Please be advised there may be a short wait before the escort.\n\nTerminal 2: Exit INTO the arrivals hall in the designated waiting area where a representative will be waiting, holding a sign with your name on it.\n\nTerminal 3: Exit INTO the arrivals hall and proceed to the greeting area near Boots Pharmacy, where your representative will be waiting holding a sign with “KOI” on it. You will be escorted to the car at the parking pickup point (approx. 3-5 min walk). A short wait may be required.\n\nIdentify yourself by showing this confirmation to your Supplier, for whom we act as a booking agent.\n\nImportant Note: Your driver will arrive at the airport 30 minutes AFTER the flight has landed, this is to allow for the lengthy process of reaching the arrivals hall. Your driver will then wait for a maximum of a further 60 minutes upon their arrival if you have booked a Standard Service, and 75 min if you have booked a Premium Service. If you arrive before the 30 minutes, please contact the supplier on their office or emergency number below, advise that you are ready to be transferred and wait for the driver in the arrivals hall.\n\nIn the event of delays exceeding your included waiting time, you must call the supplier. There are 60 minutes of wait time included from your flight landing/cruise disembarkation time/train arrival time, plus any additional waiting arrangements specified in your instructions. The supplier will make every effort to accommodate your transfer; however, if your included waiting time has expired, any continued service will be at the supplier's discretion.\n\nIF YOU CAN'T LOCATE YOUR DRIVER, please contact them directly by clicking on this link https://hbd.htxstaging.com.\nYou will need an internet or mobile phone connection to be able to call/message your driver.\n\nPlease don't attempt to contact your driver until you are at the agreed meeting point as, with the best intentions of providing you with the most efficient service, driver information is subject to change. If you are unable to locate your driver using CheckPickup, contact your supplier for assistance. Do not leave without having contacted your supplier using the details below first.\n\nDISCLAIMER HolidayTaxis Group Limited (part of HBX Group) processes your personal data for the purpose of providing you with contracted travel services. For more information about how we process your personal data, please refer to the Privacy Policy. You have the right to access, rectify, delete, and restrict the processing of your data, as well as other rights recognized by applicable law.",
+                  "mandatory": true
+                }
+              ],
+              "details": [
+                {
+                  "id": "TRFTIME",
+                  "name": "Transfer time",
+                  "description": "min. Estimated journey time"
+                },
+                {
+                  "id": "MINPAX",
+                  "name": "Minimum pax",
+                  "description": "passenger(s) minimum"
+                },
+                {
+                  "id": "MAXPAX",
+                  "name": "Maximum pax",
+                  "description": "passenger(s) maximum"
+                },
+                {
+                  "id": "LUGGAGE",
+                  "name": "Number of suitcases",
+                  "description": "suitcases permitted"
+                }
+              ],
+              "waitingTime": [
+                {
+                  "value": 60,
+                  "type": "SUPPLIER_MAX_WAITING_TIME",
+                  "metric": "minutes",
+                  "remarks": "In the event of delays exceeding your included waiting time, you must call the supplier. There are 60 minutes of wait time included from your flight landing/cruise disembarkation time/train arrival time, plus any additional waiting arrangements specified in your instructions. The supplier will make every effort to accommodate your transfer; however, if your included waiting time has expired, any continued service will be at the supplier's discretion."
+                }
+              ],
+              "images": [
+                "https://assets.htxstaging.com/imgs/default/vehicle_set/minibus-minified.jpg",
+                "https://assets.htxstaging.com/imgs/default/vehicle_set/minibus-minified.jpg",
+                "https://assets.htxstaging.com/imgs/default/vehicle_set/minibus-minified.jpg"
+              ],
+              "extrasAvailable": []
+            },
+            "alternatives": [
+              {
+                "optionId": "b1cb0c9bf0",
+                "transferType": "PRIVATE",
+                "vehicle": {
+                  "code": "MNBS",
+                  "name": "Minibus"
+                },
+                "category": {
+                  "code": "PRM",
+                  "name": "Premium"
+                },
+                "price": {
+                  "net": 65.47,
+                  "selling": 65.47,
+                  "currency": "EUR",
+                  "markupPct": 0,
+                  "basis": "NET_PLUS_MARKUP"
+                }
+              },
+              {
+                "optionId": "9639edae85",
+                "transferType": "PRIVATE",
+                "vehicle": {
+                  "code": "MNBS",
+                  "name": "Minibus"
+                },
+                "category": {
+                  "code": "STND",
+                  "name": "Standard"
+                },
+                "price": {
+                  "net": 67.43,
+                  "selling": 67.43,
+                  "currency": "EUR",
+                  "markupPct": 0,
+                  "basis": "NET_PLUS_MARKUP"
+                }
+              }
+            ]
+          },
+          "departure": {
+            "itemId": "TRF-07540323",
+            "direction": "DEPARTURE",
+            "status": "SELECTED",
+            "reason": null,
+            "from": {
+              "type": "ATLAS",
+              "code": "484321",
+              "name": "Metropolitan Hotel Dubai"
+            },
+            "to": {
+              "type": "IATA",
+              "code": "DXB",
+              "name": "Dubai International Airport"
+            },
+            "requestedDateTime": "2026-12-14T10:00:00",
+            "dateTimeAssumed": false,
+            "travelMode": "FLIGHT",
+            "selected": {
+              "optionId": "d65be89e17",
+              "transferType": "PRIVATE",
+              "vehicle": {
+                "code": "MNBS",
+                "name": "Minibus"
+              },
+              "category": {
+                "code": "STND",
+                "name": "Standard"
+              },
+              "maxPaxCapacity": 8,
+              "pickup": {
+                "date": "2026-12-14",
+                "time": "06:45:00",
+                "address": null,
+                "town": null,
+                "description": "\nFINDING YOUR DRIVER\n\nPlease be waiting at the hotel reception 10/15 minutes before your pick up time.\n\nIf you are not staying in a hotel (private residence, villa or hostel), please be outside 10/15 minutes before your pick up time.\n\nIdentify yourself by showing your voucher to the Supplier, for whom we act as a booking agent.\n\n\n\nIn the event you are delayed for your departure pick up you must call the supplier.\n\nIF YOU CAN'T LOCATE YOUR DRIVER, please contact them directly by clicking on this link https://hbd.htxstaging.com.\nYou will need an internet or mobile phone connection to be able to call/message your driver.\n\nPlease don't attempt to contact your driver until you are at the agreed meeting point as, with the best intentions of providing you with the most efficient service, driver information is subject to change. If you are unable to locate your driver using CheckPickup, contact your supplier for assistance. Do not leave without having contacted your supplier using the details below first.\n\nDISCLAIMER HolidayTaxis Group Limited (part of HBX Group) processes your personal data for the purpose of providing you with contracted travel services. For more information about how we process your personal data, please refer to the Privacy Policy. You have the right to access, rectify, delete, and restrict the processing of your data, as well as other rights recognized by applicable law.",
+                "checkPickup": {
+                  "mustCheckPickupTime": false,
+                  "url": null,
+                  "hoursBeforeConsulting": null
+                }
+              },
+              "price": {
+                "net": 43.65,
+                "selling": 43.65,
+                "currency": "EUR",
+                "markupPct": 0,
+                "basis": "NET_PLUS_MARKUP"
+              },
+              "cancellationPolicies": [
+                {
+                  "amount": 43.65,
+                  "from": "2026-12-13T06:45:00",
+                  "currency": "EUR"
+                }
+              ],
+              "remarks": [
+                {
+                  "type": "CONTRACT",
+                  "description": "\nFINDING YOUR DRIVER\n\nPlease be waiting at the hotel reception 10/15 minutes before your pick up time.\n\nIf you are not staying in a hotel (private residence, villa or hostel), please be outside 10/15 minutes before your pick up time.\n\nIdentify yourself by showing your voucher to the Supplier, for whom we act as a booking agent.\n\n\n\nIn the event you are delayed for your departure pick up you must call the supplier.\n\nIF YOU CAN'T LOCATE YOUR DRIVER, please contact them directly by clicking on this link https://hbd.htxstaging.com.\nYou will need an internet or mobile phone connection to be able to call/message your driver.\n\nPlease don't attempt to contact your driver until you are at the agreed meeting point as, with the best intentions of providing you with the most efficient service, driver information is subject to change. If you are unable to locate your driver using CheckPickup, contact your supplier for assistance. Do not leave without having contacted your supplier using the details below first.\n\nDISCLAIMER HolidayTaxis Group Limited (part of HBX Group) processes your personal data for the purpose of providing you with contracted travel services. For more information about how we process your personal data, please refer to the Privacy Policy. You have the right to access, rectify, delete, and restrict the processing of your data, as well as other rights recognized by applicable law.",
+                  "mandatory": true
+                }
+              ],
+              "details": [
+                {
+                  "id": "TRFTIME",
+                  "name": "Transfer time",
+                  "description": "min. Estimated journey time"
+                },
+                {
+                  "id": "MINPAX",
+                  "name": "Minimum pax",
+                  "description": "passenger(s) minimum"
+                },
+                {
+                  "id": "MAXPAX",
+                  "name": "Maximum pax",
+                  "description": "passenger(s) maximum"
+                },
+                {
+                  "id": "LUGGAGE",
+                  "name": "Number of suitcases",
+                  "description": "suitcases permitted"
+                }
+              ],
+              "waitingTime": [
+                {
+                  "value": null,
+                  "type": "SUPPLIER_MAX_WAITING_TIME",
+                  "metric": "minutes",
+                  "remarks": "In the event you are delayed for your departure pick up you must call the supplier."
+                }
+              ],
+              "images": [
+                "https://assets.htxstaging.com/imgs/default/vehicle_set/minibus-minified.jpg",
+                "https://assets.htxstaging.com/imgs/default/vehicle_set/minibus-minified.jpg",
+                "https://assets.htxstaging.com/imgs/default/vehicle_set/minibus-minified.jpg"
+              ],
+              "extrasAvailable": []
+            },
+            "alternatives": [
+              {
+                "optionId": "a01075e151",
+                "transferType": "PRIVATE",
+                "vehicle": {
+                  "code": "MNBS",
+                  "name": "Minibus"
+                },
+                "category": {
+                  "code": "PRM",
+                  "name": "Premium"
+                },
+                "price": {
+                  "net": 65.47,
+                  "selling": 65.47,
+                  "currency": "EUR",
+                  "markupPct": 0,
+                  "basis": "NET_PLUS_MARKUP"
+                }
+              },
+              {
+                "optionId": "bfe974143f",
+                "transferType": "PRIVATE",
+                "vehicle": {
+                  "code": "MNBS",
+                  "name": "Minibus"
+                },
+                "category": {
+                  "code": "STND",
+                  "name": "Standard"
+                },
+                "price": {
+                  "net": 67.43,
+                  "selling": 67.43,
+                  "currency": "EUR",
+                  "markupPct": 0,
+                  "basis": "NET_PLUS_MARKUP"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "index": 1,
+        "name": "Istanbul",
+        "checkIn": "2026-12-14",
+        "checkOut": "2026-12-17",
+        "nights": 3,
+        "resolvedDestination": {
+          "code": "IST",
+          "name": "Istanbul",
+          "countryCode": "TR",
+          "zone": {
+            "code": 10,
+            "name": "Sultanahmet",
+            "matchScore": 1
+          },
+          "matchScore": 1,
+          "source": "hotelbeds_content"
+        },
+        "hotel": {
+          "status": "SELECTED",
+          "selected": {
+            "optionId": "63909cfbd4",
+            "code": 30660,
+            "name": "Armada Hotel Old City Sultanahmet",
+            "stars": 4,
+            "category": "4 STARS",
+            "zone": "Old City",
+            "latitude": 41.009880831538645,
+            "longitude": 28.95383075542277,
+            "address": "Ahirkapi Sok.Cankurtaran, 24",
+            "city": "SULTANAHMET-ISTANBUL",
+            "description": "Located in the heart of Istanbul, the hotel offers excellent views of the biggest attractions and are just steps away from Grand Bazaar, Topkapi Palace and Sultanahmet Square. Ataturk airport is to be reached within 20-minute drive. Each of the rooms at this hotel combines traditional Ottoman style with modern amenities. After a long day of sightseeing, enjoy a relaxing bath with natural olive oil soaps and use the traditional cotton towels from Bursa or enjoy a comfortable night's sleep on beds equipped with goose-down pillows and duvets. Guests will start the day with a delicious buffet breakfast, including home-made pastries bakery and admire the stunning views of Istanbul's most beautiful historic buildings, as well as the Marmara Sea and the Bosphorous from the rooftop terrace. ",
+            "images": [
+              {
+                "url": "https://photos.hotelbeds.com/giata/bigger/03/030660/030660a_hb_a_002.jpg",
+                "thumb": "https://photos.hotelbeds.com/giata/medium/03/030660/030660a_hb_a_002.jpg",
+                "type": "GEN",
+                "roomCode": null
+              },
+              {
+                "url": "https://photos.hotelbeds.com/giata/bigger/03/030660/030660a_hb_a_001.jpg",
+                "thumb": "https://photos.hotelbeds.com/giata/medium/03/030660/030660a_hb_a_001.jpg",
+                "type": "GEN",
+                "roomCode": null
+              },
+              {
+                "url": "https://photos.hotelbeds.com/giata/bigger/03/030660/030660a_hb_a_004.jpg",
+                "thumb": "https://photos.hotelbeds.com/giata/medium/03/030660/030660a_hb_a_004.jpg",
+                "type": "GEN",
+                "roomCode": null
+              },
+              {
+                "url": "https://photos.hotelbeds.com/giata/bigger/03/030660/030660a_hb_ro_024_20251106_200645.jpg",
+                "thumb": "https://photos.hotelbeds.com/giata/medium/03/030660/030660a_hb_ro_024_20251106_200645.jpg",
+                "type": "GEN",
+                "roomCode": null
+              },
+              {
+                "url": "https://photos.hotelbeds.com/giata/bigger/03/030660/030660a_hb_ro_025_20251106_200650.jpg",
+                "thumb": "https://photos.hotelbeds.com/giata/medium/03/030660/030660a_hb_ro_025_20251106_200650.jpg",
+                "type": "GEN",
+                "roomCode": null
+              },
+              {
+                "url": "https://photos.hotelbeds.com/giata/bigger/03/030660/030660a_hb_l_005.jpg",
+                "thumb": "https://photos.hotelbeds.com/giata/medium/03/030660/030660a_hb_l_005.jpg",
+                "type": "COM",
+                "roomCode": null
+              },
+              {
+                "url": "https://photos.hotelbeds.com/giata/bigger/03/030660/030660a_hb_l_007.jpg",
+                "thumb": "https://photos.hotelbeds.com/giata/medium/03/030660/030660a_hb_l_007.jpg",
+                "type": "COM",
+                "roomCode": null
+              },
+              {
+                "url": "https://photos.hotelbeds.com/giata/bigger/03/030660/030660a_hb_ro_009_20251106_200647.jpg",
+                "thumb": "https://photos.hotelbeds.com/giata/medium/03/030660/030660a_hb_ro_009_20251106_200647.jpg",
+                "type": "COM",
+                "roomCode": null
+              },
+              {
+                "url": "https://photos.hotelbeds.com/giata/bigger/03/030660/030660a_hb_ro_010_20251106_200649.jpg",
+                "thumb": "https://photos.hotelbeds.com/giata/medium/03/030660/030660a_hb_ro_010_20251106_200649.jpg",
+                "type": "COM",
+                "roomCode": null
+              },
+              {
+                "url": "https://photos.hotelbeds.com/giata/bigger/03/030660/030660a_hb_w_011.jpg",
+                "thumb": "https://photos.hotelbeds.com/giata/medium/03/030660/030660a_hb_w_011.jpg",
+                "type": "HAB",
+                "roomCode": null
+              },
+              {
+                "url": "https://photos.hotelbeds.com/giata/bigger/03/030660/030660a_hb_w_012_20251119_094911.jpg",
+                "thumb": "https://photos.hotelbeds.com/giata/medium/03/030660/030660a_hb_w_012_20251119_094911.jpg",
+                "type": "HAB",
+                "roomCode": null
+              },
+              {
+                "url": "https://photos.hotelbeds.com/giata/bigger/03/030660/030660a_hb_w_013_20251119_094912.jpg",
+                "thumb": "https://photos.hotelbeds.com/giata/medium/03/030660/030660a_hb_w_013_20251119_094912.jpg",
+                "type": "HAB",
+                "roomCode": null
+              }
+            ],
+            "web": "www.armadahotel.com.tr",
+            "phones": [
+              "+0902124554455",
+              "+0902124554455",
+              "00902124554480"
+            ],
+            "checkIn": "2026-12-14",
+            "checkOut": "2026-12-17",
+            "nights": 3,
+            "rooms": [
+              {
+                "roomName": "standard Double room",
+                "roomCode": "DBL.ST",
+                "board": "BED AND BREAKFAST",
+                "boardCode": "BB",
+                "rooms": 1,
+                "adults": 2,
+                "children": 1,
+                "childAges": [
+                  8
+                ],
+                "rateClass": "NOR",
+                "cancellationPolicies": [
+                  {
+                    "amount": 216.61,
+                    "from": "2026-12-11T23:59:00+03:00"
+                  }
+                ],
+                "offers": [
+                  {
+                    "code": "9005",
+                    "name": "Exclusive discount",
+                    "amount": "-114.69"
+                  },
+                  {
+                    "code": "9001",
+                    "name": "Child discount",
+                    "amount": "-152.91"
+                  }
+                ],
+                "promotions": null
+              }
+            ],
+            "price": {
+              "net": 649.83,
+              "selling": 649.83,
+              "currency": "EUR",
+              "perNight": 216.61,
+              "mandatorySellingPrice": false
+            },
+            "refundable": true,
+            "freeCancellationUntil": "2026-12-11T23:59:00+03:00",
+            "score": 82.35,
+            "scoreBreakdown": {
+              "category": 25,
+              "price": 16.35,
+              "withinBudget": 5,
+              "roomType": 12,
+              "bed": 4,
+              "location": 10,
+              "refundable": 8,
+              "content": 2
+            }
+          },
+          "alternatives": [
+            {
+              "optionId": "62e14f7aea",
+              "code": 60359,
+              "name": "Arcadia Blue Istanbul Hotel",
+              "stars": 4,
+              "category": "4 STARS",
+              "zone": "Old City",
+              "latitude": 41.007554,
+              "longitude": 28.97464,
+              "address": "Dr.Imran Oktem Cd.-Sultanahmet, 1",
+              "city": "ISTANBUL",
+              "description": "This hotel is located in Sultanahmet, in the heart of Istanbul, a city which has always attracted travellers with its history, its nature, and its archaeological significance. Shops, bars and restaurants are located in the immediate vicinity, as are the famous Hagia Sophia and the Hippodrome. It is approximately 500 m to the Grand Bazaar, while Taksim Square is some 5 kms away. Guests will reach the airport in about 15 kms. Restored in 2006, a total of 48 rooms are on offer within this traditional building, which still reflects the architectural style of the 19th century. The interiors and decoration have been hand-crafted. In the hotel restaurant guests may enjoy outstanding Turkish and international cuisine in a traditional atmosphere with live music all day long, next to a terrace with views of historically important monuments. ",
+              "images": [
+                {
+                  "url": "https://photos.hotelbeds.com/giata/bigger/06/060359/060359a_hb_a_039.jpg",
+                  "thumb": "https://photos.hotelbeds.com/giata/medium/06/060359/060359a_hb_a_039.jpg",
+                  "type": "GEN",
+                  "roomCode": null
+                },
+                {
+                  "url": "https://photos.hotelbeds.com/giata/bigger/06/060359/060359a_hb_a_040.jpg",
+                  "thumb": "https://photos.hotelbeds.com/giata/medium/06/060359/060359a_hb_a_040.jpg",
+                  "type": "GEN",
+                  "roomCode": null
+                },
+                {
+                  "url": "https://photos.hotelbeds.com/giata/bigger/06/060359/060359a_hb_a_013.jpg",
+                  "thumb": "https://photos.hotelbeds.com/giata/medium/06/060359/060359a_hb_a_013.jpg",
+                  "type": "GEN",
+                  "roomCode": null
+                },
+                {
+                  "url": "https://photos.hotelbeds.com/giata/bigger/06/060359/060359a_hb_a_017.jpg",
+                  "thumb": "https://photos.hotelbeds.com/giata/medium/06/060359/060359a_hb_a_017.jpg",
+                  "type": "GEN",
+                  "roomCode": null
+                },
+                {
+                  "url": "https://photos.hotelbeds.com/giata/bigger/06/060359/060359a_hb_a_019.jpg",
+                  "thumb": "https://photos.hotelbeds.com/giata/medium/06/060359/060359a_hb_a_019.jpg",
+                  "type": "GEN",
+                  "roomCode": null
+                },
+                {
+                  "url": "https://photos.hotelbeds.com/giata/bigger/06/060359/060359a_hb_a_021.jpg",
+                  "thumb": "https://photos.hotelbeds.com/giata/medium/06/060359/060359a_hb_a_021.jpg",
+                  "type": "GEN",
+                  "roomCode": null
+                },
+                {
+                  "url": "https://photos.hotelbeds.com/giata/bigger/06/060359/060359a_hb_a_024.jpg",
+                  "thumb": "https://photos.hotelbeds.com/giata/medium/06/060359/060359a_hb_a_024.jpg",
+                  "type": "GEN",
+                  "roomCode": null
+                },
+                {
+                  "url": "https://photos.hotelbeds.com/giata/bigger/06/060359/060359a_hb_a_032.jpg",
+                  "thumb": "https://photos.hotelbeds.com/giata/medium/06/060359/060359a_hb_a_032.jpg",
+                  "type": "GEN",
+                  "roomCode": null
+                },
+                {
+                  "url": "https://photos.hotelbeds.com/giata/bigger/06/060359/060359a_hb_a_035.jpg",
+                  "thumb": "https://photos.hotelbeds.com/giata/medium/06/060359/060359a_hb_a_035.jpg",
+                  "type": "GEN",
+                  "roomCode": null
+                },
+                {
+                  "url": "https://photos.hotelbeds.com/giata/bigger/06/060359/060359a_hb_a_036.jpg",
+                  "thumb": "https://photos.hotelbeds.com/giata/medium/06/060359/060359a_hb_a_036.jpg",
+                  "type": "GEN",
+                  "roomCode": null
+                },
+                {
+                  "url": "https://photos.hotelbeds.com/giata/bigger/06/060359/060359a_hb_a_037.jpg",
+                  "thumb": "https://photos.hotelbeds.com/giata/medium/06/060359/060359a_hb_a_037.jpg",
+                  "type": "GEN",
+                  "roomCode": null
+                },
+                {
+                  "url": "https://photos.hotelbeds.com/giata/bigger/06/060359/060359a_hb_a_038.jpg",
+                  "thumb": "https://photos.hotelbeds.com/giata/medium/06/060359/060359a_hb_a_038.jpg",
+                  "type": "GEN",
+                  "roomCode": null
+                }
+              ],
+              "web": "www.hotelarcadiablue.com",
+              "phones": [
+                "+902126311721",
+                "902125169696",
+                "902125166118"
+              ],
+              "checkIn": "2026-12-14",
+              "checkOut": "2026-12-17",
+              "nights": 3,
+              "rooms": [
+                {
+                  "roomName": "DOUBLE STANDARD",
+                  "roomCode": "DBL.ST",
+                  "board": "BED AND BREAKFAST",
+                  "boardCode": "BB",
+                  "rooms": 1,
+                  "adults": 2,
+                  "children": 1,
+                  "childAges": [
+                    8
+                  ],
+                  "rateClass": "NOR",
+                  "cancellationPolicies": [
+                    {
+                      "amount": 145.16,
+                      "from": "2026-12-10T23:59:00+03:00"
+                    }
+                  ],
+                  "offers": [
+                    {
+                      "code": "9002",
+                      "name": "Early Booking discount",
+                      "amount": "-48.39"
+                    }
+                  ],
+                  "promotions": null
+                }
+              ],
+              "price": {
+                "net": 435.48,
+                "selling": 435.48,
+                "currency": "EUR",
+                "perNight": 145.16,
+                "mandatorySellingPrice": false
+              },
+              "refundable": true,
+              "freeCancellationUntil": "2026-12-10T23:59:00+03:00",
+              "score": 78.21,
+              "scoreBreakdown": {
+                "category": 25,
+                "price": 14.21,
+                "withinBudget": 5,
+                "roomType": 12,
+                "bed": 4,
+                "refundable": 8,
+                "location": 8,
+                "content": 2
+              }
+            },
+            {
+              "optionId": "3a8398b025",
+              "code": 82165,
+              "name": "Lady Diana",
+              "stars": 4,
+              "category": "4 STARS",
+              "zone": "Old City",
+              "latitude": 41.006257,
+              "longitude": 28.97352,
+              "address": "Binbirdirek Mah Terzihane Sok No 9 Sultanahmet, No:9",
+              "city": "ISTANBUL",
+              "description": "Located in the heart of Istanbul's historic Old City, this newly opened hotel is surrounded by Ottoman-era landmarks. Guests can enjoy on-site dining, shopping, and conference facilities, as well as a Turkish bath, gym, and sauna. All air-conditioned rooms include en suite bathrooms, complimentary internet access, and LCD TVs. The rooftop restaurant offers breathtaking panoramic views of the Old Peninsula, including the Hagia Sophia and Blue Mosque. For airport transfers or sightseeing tours, please contact the concierge at info@ladydianahotel. com. ",
+              "images": [
+                {
+                  "url": "https://photos.hotelbeds.com/giata/bigger/08/082165/082165a_hb_a_014.jpg",
+                  "thumb": "https://photos.hotelbeds.com/giata/medium/08/082165/082165a_hb_a_014.jpg",
+                  "type": "GEN",
+                  "roomCode": null
+                },
+                {
+                  "url": "https://photos.hotelbeds.com/giata/bigger/08/082165/082165a_hb_a_015.jpg",
+                  "thumb": "https://photos.hotelbeds.com/giata/medium/08/082165/082165a_hb_a_015.jpg",
+                  "type": "GEN",
+                  "roomCode": null
+                },
+                {
+                  "url": "https://photos.hotelbeds.com/giata/bigger/08/082165/082165a_hb_a_016.jpg",
+                  "thumb": "https://photos.hotelbeds.com/giata/medium/08/082165/082165a_hb_a_016.jpg",
+                  "type": "GEN",
+                  "roomCode": null
+                },
+                {
+                  "url": "https://photos.hotelbeds.com/giata/bigger/08/082165/082165a_hb_a_017.jpg",
+                  "thumb": "https://photos.hotelbeds.com/giata/medium/08/082165/082165a_hb_a_017.jpg",
+                  "type": "GEN",
+                  "roomCode": null
+                },
+                {
+                  "url": "https://photos.hotelbeds.com/giata/bigger/08/082165/082165a_hb_a_018.jpg",
+                  "thumb": "https://photos.hotelbeds.com/giata/medium/08/082165/082165a_hb_a_018.jpg",
+                  "type": "GEN",
+                  "roomCode": null
+                },
+                {
+                  "url": "https://photos.hotelbeds.com/giata/bigger/08/082165/082165a_hb_l_004.jpg",
+                  "thumb": "https://photos.hotelbeds.com/giata/medium/08/082165/082165a_hb_l_004.jpg",
+                  "type": "COM",
+                  "roomCode": null
+                },
+                {
+                  "url": "https://photos.hotelbeds.com/giata/bigger/08/082165/082165a_hb_l_003.jpeg",
+                  "thumb": "https://photos.hotelbeds.com/giata/medium/08/082165/082165a_hb_l_003.jpeg",
+                  "type": "COM",
+                  "roomCode": null
+                },
+                {
+                  "url": "https://photos.hotelbeds.com/giata/bigger/08/082165/082165a_hb_l_001.jpeg",
+                  "thumb": "https://photos.hotelbeds.com/giata/medium/08/082165/082165a_hb_l_001.jpeg",
+                  "type": "COM",
+                  "roomCode": null
+                },
+                {
+                  "url": "https://photos.hotelbeds.com/giata/bigger/08/082165/082165a_hb_l_002.jpeg",
+                  "thumb": "https://photos.hotelbeds.com/giata/medium/08/082165/082165a_hb_l_002.jpeg",
+                  "type": "COM",
+                  "roomCode": null
+                },
+                {
+                  "url": "https://photos.hotelbeds.com/giata/bigger/08/082165/082165a_hb_ro_054.jpg",
+                  "thumb": "https://photos.hotelbeds.com/giata/medium/08/082165/082165a_hb_ro_054.jpg",
+                  "type": "HAB",
+                  "roomCode": "DBL.ST"
+                },
+                {
+                  "url": "https://photos.hotelbeds.com/giata/bigger/08/082165/082165a_hb_ro_055.jpg",
+                  "thumb": "https://photos.hotelbeds.com/giata/medium/08/082165/082165a_hb_ro_055.jpg",
+                  "type": "HAB",
+                  "roomCode": "DBL.ST"
+                },
+                {
+                  "url": "https://photos.hotelbeds.com/giata/bigger/08/082165/082165a_hb_ro_013.jpg",
+                  "thumb": "https://photos.hotelbeds.com/giata/medium/08/082165/082165a_hb_ro_013.jpg",
+                  "type": "HAB",
+                  "roomCode": "FAM.AS"
+                }
+              ],
+              "web": "www.ladydianahotel.com",
+              "phones": [
+                "+902129682929",
+                "+902129682929",
+                "+902125169650"
+              ],
+              "checkIn": "2026-12-14",
+              "checkOut": "2026-12-17",
+              "nights": 3,
+              "rooms": [
+                {
+                  "roomName": "Double Standard",
+                  "roomCode": "DBL.ST",
+                  "board": "BED AND BREAKFAST",
+                  "boardCode": "BB",
+                  "rooms": 1,
+                  "adults": 2,
+                  "children": 1,
+                  "childAges": [
+                    8
+                  ],
+                  "rateClass": "NOR",
+                  "cancellationPolicies": [
+                    {
+                      "amount": 106.39,
+                      "from": "2026-12-11T23:59:00+03:00"
+                    }
+                  ],
+                  "offers": [
+                    {
+                      "code": "9001",
+                      "name": "Child discount",
+                      "amount": "-63.84"
+                    }
+                  ],
+                  "promotions": [
+                    {
+                      "code": "527",
+                      "name": "March Markdowns",
+                      "remark": " "
+                    }
+                  ]
+                }
+              ],
+              "price": {
+                "net": 319.17,
+                "selling": 319.17,
+                "currency": "EUR",
+                "perNight": 106.39,
+                "mandatorySellingPrice": false
+              },
+              "refundable": true,
+              "freeCancellationUntil": "2026-12-11T23:59:00+03:00",
+              "score": 77.05,
+              "scoreBreakdown": {
+                "category": 25,
+                "price": 13.05,
+                "withinBudget": 5,
+                "roomType": 12,
+                "bed": 4,
+                "refundable": 8,
+                "location": 8,
+                "content": 2
+              }
+            },
+            {
+              "optionId": "990c7f8831",
+              "code": 600623,
+              "name": "Renata Suites Boutique Hotel",
+              "stars": 4,
+              "category": "4 STARS",
+              "zone": "New City",
+              "latitude": 41.056036,
+              "longitude": 28.986175,
+              "address": "Nakiye Elgun Street No:44 Osmanbey/Sisli, 44",
+              "city": "ISTANBUL",
+              "description": "A New breath, a new space, new pleasures, new emotions, your home-comfort and office ergonomy. The Hotel invites you to give a different sight to Istanbul.  Renata Boutique Hotel is in the city centre and only 4 minutes away from Taksim Square via Underground. The hotel is within walking distance to Lütfi Kırdar International Convention and Exhibition Centre and only 3 minutes away from the biggest malls in Istanbul and the region via Underground. The hotel is located very near to Osmanbey Underground Station and the distance to Istanbul Atatürk Airport is 23 km. ",
+              "images": [
+                {
+                  "url": "https://photos.hotelbeds.com/giata/bigger/60/600623/600623a_hb_a_003.jpg",
+                  "thumb": "https://photos.hotelbeds.com/giata/medium/60/600623/600623a_hb_a_003.jpg",
+                  "type": "GEN",
+                  "roomCode": null
+                },
+                {
+                  "url": "https://photos.hotelbeds.com/giata/bigger/60/600623/600623a_hb_a_002.jpg",
+                  "thumb": "https://photos.hotelbeds.com/giata/medium/60/600623/600623a_hb_a_002.jpg",
+                  "type": "GEN",
+                  "roomCode": null
+                },
+                {
+                  "url": "https://photos.hotelbeds.com/giata/bigger/60/600623/600623a_hb_a_004.jpg",
+                  "thumb": "https://photos.hotelbeds.com/giata/medium/60/600623/600623a_hb_a_004.jpg",
+                  "type": "GEN",
+                  "roomCode": null
+                },
+                {
+                  "url": "https://photos.hotelbeds.com/giata/bigger/60/600623/600623a_hb_l_001.jpg",
+                  "thumb": "https://photos.hotelbeds.com/giata/medium/60/600623/600623a_hb_l_001.jpg",
+                  "type": "COM",
+                  "roomCode": null
+                },
+                {
+                  "url": "https://photos.hotelbeds.com/giata/bigger/60/600623/600623a_hb_l_002.jpg",
+                  "thumb": "https://photos.hotelbeds.com/giata/medium/60/600623/600623a_hb_l_002.jpg",
+                  "type": "COM",
+                  "roomCode": null
+                },
+                {
+                  "url": "https://photos.hotelbeds.com/giata/bigger/60/600623/600623a_hb_l_003.jpg",
+                  "thumb": "https://photos.hotelbeds.com/giata/medium/60/600623/600623a_hb_l_003.jpg",
+                  "type": "COM",
+                  "roomCode": null
+                },
+                {
+                  "url": "https://photos.hotelbeds.com/giata/bigger/60/600623/600623a_hb_l_004.jpg",
+                  "thumb": "https://photos.hotelbeds.com/giata/medium/60/600623/600623a_hb_l_004.jpg",
+                  "type": "COM",
+                  "roomCode": null
+                },
+                {
+                  "url": "https://photos.hotelbeds.com/giata/bigger/60/600623/600623a_hb_ro_009.jpg",
+                  "thumb": "https://photos.hotelbeds.com/giata/medium/60/600623/600623a_hb_ro_009.jpg",
+                  "type": "HAB",
+                  "roomCode": "DBL.CB"
+                },
+                {
+                  "url": "https://photos.hotelbeds.com/giata/bigger/60/600623/600623a_hb_ro_016.jpg",
+                  "thumb": "https://photos.hotelbeds.com/giata/medium/60/600623/600623a_hb_ro_016.jpg",
+                  "type": "HAB",
+                  "roomCode": "DBL.CB"
+                },
+                {
+                  "url": "https://photos.hotelbeds.com/giata/bigger/60/600623/600623a_hb_ro_046.jpg",
+                  "thumb": "https://photos.hotelbeds.com/giata/medium/60/600623/600623a_hb_ro_046.jpg",
+                  "type": "HAB",
+                  "roomCode": "DBL.CB"
+                },
+                {
+                  "url": "https://photos.hotelbeds.com/giata/bigger/60/600623/600623a_hb_ro_015.jpg",
+                  "thumb": "https://photos.hotelbeds.com/giata/medium/60/600623/600623a_hb_ro_015.jpg",
+                  "type": "HAB",
+                  "roomCode": "DBL.DX-TR"
+                },
+                {
+                  "url": "https://photos.hotelbeds.com/giata/bigger/60/600623/600623a_hb_ro_010.jpg",
+                  "thumb": "https://photos.hotelbeds.com/giata/medium/60/600623/600623a_hb_ro_010.jpg",
+                  "type": "HAB",
+                  "roomCode": "DBL.PE"
+                }
+              ],
+              "web": "www.renatahotel.com",
+              "phones": [
+                "00902122824242",
+                "00902122824242",
+                "00902122787474"
+              ],
+              "checkIn": "2026-12-14",
+              "checkOut": "2026-12-17",
+              "nights": 3,
+              "rooms": [
+                {
+                  "roomName": "standard double",
+                  "roomCode": "DBL.ST",
+                  "board": "BED AND BREAKFAST",
+                  "boardCode": "BB",
+                  "rooms": 1,
+                  "adults": 2,
+                  "children": 1,
+                  "childAges": [
+                    8
+                  ],
+                  "rateClass": "NOR",
+                  "cancellationPolicies": [
+                    {
+                      "amount": 191.83,
+                      "from": "2026-12-12T23:59:00+03:00"
+                    }
+                  ],
+                  "offers": [
+                    {
+                      "code": "9001",
+                      "name": "Child discount",
+                      "amount": "-171.60"
+                    }
+                  ],
+                  "promotions": null
+                }
+              ],
+              "price": {
+                "net": 575.49,
+                "selling": 575.49,
+                "currency": "EUR",
+                "perNight": 191.83,
+                "mandatorySellingPrice": false
+              },
+              "refundable": true,
+              "freeCancellationUntil": "2026-12-12T23:59:00+03:00",
+              "score": 71.61,
+              "scoreBreakdown": {
+                "category": 25,
+                "price": 15.61,
+                "withinBudget": 5,
+                "roomType": 12,
+                "bed": 4,
+                "refundable": 8,
+                "content": 2
+              }
+            }
+          ],
+          "candidatesFound": 60
+        },
+        "activities": {
+          "status": "MATCHED",
+          "items": [
+            {
+              "itemId": "ACT-21e80ea3",
+              "status": "MATCHED",
+              "requested": {
+                "excursion": "Bosphorus cruise",
+                "excursionType": "NATURE",
+                "excursionDate": "2026-12-15",
+                "dayPart": "AFTERNOON",
+                "adultCount": 2,
+                "childCount": 1
+              },
+              "date": "2026-12-15",
+              "from": "2026-12-15",
+              "to": "2026-12-15",
+              "activity": {
+                "code": "E-T01-BOSSUNSET",
+                "name": "Bosphorus Sunset Cruise",
+                "type": "TICKET",
+                "description": "An enchanted evening cruise starts while you sip your welcome drink and enjoy the marvelous scenery as the sun sets on the Bosphorus. Chance to view and photograph the precious relics of three world dominating Empires: Roman, Byzantine and Ottoman. The royal Dolmabahçe Palace, the late residence of the Ottoman Sultans; Bosphorus and Fatih Sultan Mehmet Bridges connecting the two continents Asia and Europe; Rumeli Fortress, the historical armament built by the Conqueror Sultan, marble palaces, ancient wooden villas of Ottoman style besides modern residentials.",
+                "images": [
+                  "https://media.activitiesbank.com/32585/ENG/XL/32585_4.jpg",
+                  "https://media.activitiesbank.com/32585/ENG/XL/32585_1.jpg",
+                  "https://media.activitiesbank.com/32585/ENG/XL/32585_2.jpg",
+                  "https://media.activitiesbank.com/32585/ENG/XL/32585_3.jpg"
+                ],
+                "durationHours": 24
+              },
+              "modality": {
+                "code": "96994746#SUNSET",
+                "name": "Cruise",
+                "duration": {
+                  "value": 1,
+                  "metric": "DAYS"
+                },
+                "amountUnitType": "PAX"
+              },
+              "rate": {
+                "rateCode": "STANDARD",
+                "rateClass": "NOR",
+                "freeCancellation": false
+              },
+              "session": {
+                "code": "18:15",
+                "name": "18:15"
+              },
+              "language": "eng",
+              "languagesOffered": [
+                "eng"
+              ],
+              "pax": {
+                "adults": 2,
+                "childAges": [
+                  8
+                ]
+              },
+              "price": {
+                "net": 616.23,
+                "selling": 616.23,
+                "currency": "EUR",
+                "markupPct": 0,
+                "basis": "NET_PLUS_MARKUP"
+              },
+              "cancellationPolicies": [
+                {
+                  "dateFrom": "2026-12-14T00:00:00.000Z",
+                  "amount": 616.23
+                }
+              ],
+              "questions": [
+                {
+                  "code": "HOTEL",
+                  "text": "Please provide the name of your hotel",
+                  "required": true
+                },
+                {
+                  "code": "PHONENUMBER",
+                  "text": "Guests telephone with international code required",
+                  "required": true
+                }
+              ],
+              "matchScore": 96.24,
+              "matchReasons": {
+                "text": 61.41,
+                "type": 15,
+                "price": 9.83,
+                "date": 10
+              },
+              "alternatives": [
+                {
+                  "activityCode": "E-T01-GUIDING",
+                  "name": "Private Guide Service",
+                  "modalityCode": "1431368336#FULLDAY",
+                  "modalityName": "8 hours",
+                  "date": "2026-12-15",
+                  "score": 94.03,
+                  "price": {
+                    "amount": 414.86,
+                    "currency": "EUR"
+                  }
+                },
+                {
+                  "activityCode": "E-T01-PRI-BOS2CO",
+                  "name": "Istanbul by Land and Sea -  Full-Day Private Tour",
+                  "modalityCode": "1125072649#PORT",
+                  "modalityName": "Tour with transfers from port",
+                  "date": "2026-12-15",
+                  "score": 92.13,
+                  "price": {
+                    "amount": 685.71,
+                    "currency": "EUR"
+                  }
+                }
+              ]
+            },
+            {
+              "itemId": "ACT-ab6baa81",
+              "status": "MATCHED",
+              "requested": {
+                "excursion": "Hagia Sophia Blue Mosque",
+                "excursionType": "CULTURAL",
+                "excursionDate": "2026-12-16",
+                "dayPart": "MORNING",
+                "adultCount": 2,
+                "childCount": 1
+              },
+              "date": "2026-12-16",
+              "from": "2026-12-16",
+              "to": "2026-12-16",
+              "activity": {
+                "code": "E-T01-BYOTRELICS",
+                "name": "Byzantine and Ottoman Relics:Blue Mosque,Hagia Sophia,Topkapi Palace & Grand Bazaar - Full-Day",
+                "type": "TICKET",
+                "description": "Istanbul always causes a striking impression and then leaves a dear lasting memory for its unparalleled mix of Western and Middle Eastern culture, being the city that bridges the European and the Asian continents. Begin by being driven to the nucleus of the Old City: Sultanahmet Square. You are then taken to explore the thrilling Hippodrome, which used to host chariot races in the days of the Byzantine Empire. Then head over to the sprawling and awe-inspiring construction of the Blue Mosque , one of the most impressive sights in the city. After the Blue Mosque, head over to another colossal…",
+                "images": [
+                  "https://media.activitiesbank.com/11394/ENG/XL/11394_1.jpg",
+                  "https://media.activitiesbank.com/11394/ENG/XL/11394_2.jpg",
+                  "https://media.activitiesbank.com/11394/ENG/XL/11394_3.jpg",
+                  "https://media.activitiesbank.com/11394/ENG/XL/11394_4.jpg"
+                ],
+                "durationHours": 24
+              },
+              "modality": {
+                "code": "2044662916#PRIVATE",
+                "name": "Private tour with ticket",
+                "duration": {
+                  "value": 1,
+                  "metric": "DAYS"
+                },
+                "amountUnitType": "PAX"
+              },
+              "rate": {
+                "rateCode": "STANDARD",
+                "rateClass": "NOR",
+                "freeCancellation": false
+              },
+              "session": {
+                "code": "09:00",
+                "name": "09:00"
+              },
+              "language": "cas",
+              "languagesOffered": [
+                "cas"
+              ],
+              "pax": {
+                "adults": 2,
+                "childAges": [
+                  8
+                ]
+              },
+              "price": {
+                "net": 788.58,
+                "selling": 788.58,
+                "currency": "EUR",
+                "markupPct": 0,
+                "basis": "NET_PLUS_MARKUP"
+              },
+              "cancellationPolicies": [
+                {
+                  "dateFrom": "2026-12-15T00:00:00.000Z",
+                  "amount": 788.58
+                }
+              ],
+              "questions": [
+                {
+                  "code": "HOTEL",
+                  "text": "Please provide the name of your hotel",
+                  "required": true
+                },
+                {
+                  "code": "PHONENUMBER",
+                  "text": "Guests telephone with international code required",
+                  "required": true
+                }
+              ],
+              "matchScore": 92.95,
+              "matchReasons": {
+                "text": 50.96,
+                "type": 15,
+                "dayPart": 8,
+                "price": 8.99,
+                "date": 10
+              },
+              "alternatives": [
+                {
+                  "activityCode": "E-T01-GUIDING",
+                  "name": "Private Guide Service",
+                  "modalityCode": "1431368336#FULLDAY",
+                  "modalityName": "8 hours",
+                  "date": "2026-12-16",
+                  "score": 92.68,
+                  "price": {
+                    "amount": 414.86,
+                    "currency": "EUR"
+                  }
+                },
+                {
+                  "activityCode": "E-T01-A0NUNO0084",
+                  "name": "Blue Mosque, Hippodrome, Hagia Sophia, Topkapi Palace & Grand Bazaar Private Tour - Shore Excursion",
+                  "modalityCode": "1845841737#TOUR",
+                  "modalityName": "Tour",
+                  "date": "2026-12-16",
+                  "score": 87.93,
+                  "price": {
+                    "amount": 1024.56,
+                    "currency": "EUR"
+                  }
+                }
+              ],
+              "comment": "English guide"
+            }
+          ],
+          "suggested": []
+        },
+        "transfers": {
+          "status": "SELECTED",
+          "arrival": {
+            "itemId": "TRF-e9691fcd",
+            "direction": "ARRIVAL",
+            "status": "SELECTED",
+            "reason": null,
+            "from": {
+              "type": "IATA",
+              "code": "IST",
+              "name": "Istanbul Airport"
+            },
+            "to": {
+              "type": "ATLAS",
+              "code": "30660",
+              "name": "Armada Hotel Old City Sultanahmet"
+            },
+            "requestedDateTime": "2026-12-14T14:00:00",
+            "dateTimeAssumed": false,
+            "travelMode": "FLIGHT",
+            "selected": {
+              "optionId": "6f80a01fef",
+              "transferType": "PRIVATE",
+              "vehicle": {
+                "code": "MNBS",
+                "name": "Minibus"
+              },
+              "category": {
+                "code": "STND",
+                "name": "Standard"
+              },
+              "maxPaxCapacity": 13,
+              "pickup": {
+                "date": "2026-12-14",
+                "time": "14:00:00",
+                "address": null,
+                "town": null,
+                "description": "\nFINDING YOUR DRIVER\nUpon collecting your luggage, please make your way through the arrivals hall. Your Tefen Travel representative will be waiting at Exit Door 13, next to a sign with Tefen Travel on it.\n\nIdentify yourself by showing your voucher to the supplier, for whom we act as a booking agent. \n\nIMPORTANT NOTE: Due to regulations put in place by the Turkish Ministry of Transport, it is a LEGAL OBLIGATION to provide all passenger names that are due to travel on your booking, at least 12 hours prior to travel. Please call or Whatsapp our local supplier on +905428101208 to provide this information. Failure to do so, or if the information provided is incorrect, may result in significant delays.\n\nPlease note: Due to airport regulations, drivers are not permitted to wait inside the terminal building with a signboard. Please follow the voucher instructions and check in with your representative at the designated meeting point. You will then be escorted to your vehicle, located a short walk away.    \n\n\n\n\nIn the event of delays exceeding your included waiting time, you must call the supplier. There are 60 minutes of wait time included from your flight landing/cruise disembarkation time/train arrival time, plus any additional waiting arrangements specified in your instructions. The supplier will make every effort to accommodate your transfer; however, if your included waiting time has expired, any continued service will be at the supplier's discretion.\n\nIF YOU CAN'T LOCATE YOUR DRIVER, please contact them directly by clicking on this link https://hbd.htxstaging.com.\nYou will need an internet or mobile phone connection to be able to call/message your driver.\n\nPlease don't attempt to contact your driver until you are at the agreed meeting point as, with the best intentions of providing you with the most efficient service, driver information is subject to change. If you are unable to locate your driver using CheckPickup, contact your supplier for assistance. Do not leave without having contacted your supplier using the details below first.\n\nDISCLAIMER HolidayTaxis Group Limited (part of HBX Group) processes your personal data for the purpose of providing you with contracted travel services. For more information about how we process your personal data, please refer to the Privacy Policy. You have the right to access, rectify, delete, and restrict the processing of your data, as well as other rights recognized by applicable law.",
+                "checkPickup": {
+                  "mustCheckPickupTime": false,
+                  "url": null,
+                  "hoursBeforeConsulting": null
+                }
+              },
+              "price": {
+                "net": 68.31,
+                "selling": 68.31,
+                "currency": "EUR",
+                "markupPct": 0,
+                "basis": "NET_PLUS_MARKUP"
+              },
+              "cancellationPolicies": [
+                {
+                  "amount": 68.31,
+                  "from": "2026-12-13T14:00:00",
+                  "currency": "EUR"
+                }
+              ],
+              "remarks": [
+                {
+                  "type": "CONTRACT",
+                  "description": "\nFINDING YOUR DRIVER\nUpon collecting your luggage, please make your way through the arrivals hall. Your Tefen Travel representative will be waiting at Exit Door 13, next to a sign with Tefen Travel on it.\n\nIdentify yourself by showing your voucher to the supplier, for whom we act as a booking agent. \n\nIMPORTANT NOTE: Due to regulations put in place by the Turkish Ministry of Transport, it is a LEGAL OBLIGATION to provide all passenger names that are due to travel on your booking, at least 12 hours prior to travel. Please call or Whatsapp our local supplier on +905428101208 to provide this information. Failure to do so, or if the information provided is incorrect, may result in significant delays.\n\nPlease note: Due to airport regulations, drivers are not permitted to wait inside the terminal building with a signboard. Please follow the voucher instructions and check in with your representative at the designated meeting point. You will then be escorted to your vehicle, located a short walk away.    \n\n\n\n\nIn the event of delays exceeding your included waiting time, you must call the supplier. There are 60 minutes of wait time included from your flight landing/cruise disembarkation time/train arrival time, plus any additional waiting arrangements specified in your instructions. The supplier will make every effort to accommodate your transfer; however, if your included waiting time has expired, any continued service will be at the supplier's discretion.\n\nIF YOU CAN'T LOCATE YOUR DRIVER, please contact them directly by clicking on this link https://hbd.htxstaging.com.\nYou will need an internet or mobile phone connection to be able to call/message your driver.\n\nPlease don't attempt to contact your driver until you are at the agreed meeting point as, with the best intentions of providing you with the most efficient service, driver information is subject to change. If you are unable to locate your driver using CheckPickup, contact your supplier for assistance. Do not leave without having contacted your supplier using the details below first.\n\nDISCLAIMER HolidayTaxis Group Limited (part of HBX Group) processes your personal data for the purpose of providing you with contracted travel services. For more information about how we process your personal data, please refer to the Privacy Policy. You have the right to access, rectify, delete, and restrict the processing of your data, as well as other rights recognized by applicable law.",
+                  "mandatory": true
+                }
+              ],
+              "details": [
+                {
+                  "id": "TRFTIME",
+                  "name": "Transfer time",
+                  "description": "min. Estimated journey time"
+                },
+                {
+                  "id": "MINPAX",
+                  "name": "Minimum pax",
+                  "description": "passenger(s) minimum"
+                },
+                {
+                  "id": "MAXPAX",
+                  "name": "Maximum pax",
+                  "description": "passenger(s) maximum"
+                },
+                {
+                  "id": "LUGGAGE",
+                  "name": "Number of suitcases",
+                  "description": "suitcases permitted"
+                }
+              ],
+              "waitingTime": [
+                {
+                  "value": 60,
+                  "type": "SUPPLIER_MAX_WAITING_TIME",
+                  "metric": "minutes",
+                  "remarks": "In the event of delays exceeding your included waiting time, you must call the supplier. There are 60 minutes of wait time included from your flight landing/cruise disembarkation time/train arrival time, plus any additional waiting arrangements specified in your instructions. The supplier will make every effort to accommodate your transfer; however, if your included waiting time has expired, any continued service will be at the supplier's discretion."
+                }
+              ],
+              "images": [
+                "https://assets.htxstaging.com/imgs/default/vehicle_set/minibus-minified.jpg",
+                "https://assets.htxstaging.com/imgs/default/vehicle_set/minibus-minified.jpg",
+                "https://assets.htxstaging.com/imgs/default/vehicle_set/minibus-minified.jpg"
+              ],
+              "extrasAvailable": [
+                {
+                  "amount": 7.12,
+                  "type": "Booster Seat (15-25kg,33lb-3st 13lb,4-7yr)",
+                  "code": "T01"
+                },
+                {
+                  "amount": 7.12,
+                  "type": "Child Seat (9-18kg,20-40lb,9mths-4yr)",
+                  "code": "T04"
+                },
+                {
+                  "amount": 7.12,
+                  "type": "Booster Seat (22-36kg,3st 7lb-5st 9lb,7-12yr)",
+                  "code": "T02"
+                }
+              ]
+            },
+            "alternatives": [
+              {
+                "optionId": "60c2309c29",
+                "transferType": "PRIVATE",
+                "vehicle": {
+                  "code": "MNBS",
+                  "name": "Minibus"
+                },
+                "category": {
+                  "code": "STND",
+                  "name": "Standard"
+                },
+                "price": {
+                  "net": 62.2,
+                  "selling": 62.2,
+                  "currency": "EUR",
+                  "markupPct": 0,
+                  "basis": "NET_PLUS_MARKUP"
+                }
+              },
+              {
+                "optionId": "405e6c6d10",
+                "transferType": "PRIVATE",
+                "vehicle": {
+                  "code": "MNBS",
+                  "name": "Minibus"
+                },
+                "category": {
+                  "code": "PRM",
+                  "name": "Premium"
+                },
+                "price": {
+                  "net": 56.93,
+                  "selling": 56.93,
+                  "currency": "EUR",
+                  "markupPct": 0,
+                  "basis": "NET_PLUS_MARKUP"
+                }
+              }
+            ]
+          },
+          "departure": {
+            "itemId": "TRF-ef15eae8",
+            "direction": "DEPARTURE",
+            "status": "SELECTED",
+            "reason": null,
+            "from": {
+              "type": "ATLAS",
+              "code": "30660",
+              "name": "Armada Hotel Old City Sultanahmet"
+            },
+            "to": {
+              "type": "IATA",
+              "code": "IST",
+              "name": "Istanbul Airport"
+            },
+            "requestedDateTime": "2026-12-17T18:00:00",
+            "dateTimeAssumed": false,
+            "travelMode": "FLIGHT",
+            "selected": {
+              "optionId": "71a47fecac",
+              "transferType": "SHARED",
+              "vehicle": {
+                "code": "SH",
+                "name": "Shuttle"
+              },
+              "category": {
+                "code": "PRM",
+                "name": "Premium"
+              },
+              "maxPaxCapacity": 99,
+              "pickup": {
+                "date": null,
+                "time": null,
+                "address": null,
+                "town": null,
+                "description": "\nYou MUST confirm your pick up time\n\nUse ONE of the following methods:\n\n1. Visit https://hbd.htxstaging.com approx. 24 hours prior to your departure and follow instructions on the screen\n\n 2. Contact the supplier 24h prior to departure during their office hours.\n\nPlease ensure that you are at your pick-up point 10/15 minutes before the confirmed time.\n\nIdentify yourself by showing this confirmation to your Supplier, for whom we act as a booking agent.\n\nIMPORTANT NOTE: Due to regulations put in place by the Turkish Ministry of Transport, it is a LEGAL OBLIGATION to provide all passenger names that are due to travel on your booking, at least 12 hours prior to travel. Please call or Whatsapp our local supplier on +905428101208 to provide this information. Failure to do so, or if the information provided is incorrect, may result in significant delays.\n\nLonger transfers may include a comfort break. These breaks are for the comfort of the passengers and drivers.\n\n\n\nIn the event you are delayed for your departure pick up you must call the supplier.\n\nIF YOU CAN'T LOCATE YOUR DRIVER, please contact them directly by clicking on this link https://hbd.htxstaging.com.\nYou will need an internet or mobile phone connection to be able to call/message your driver.\n\nPlease don't attempt to contact your driver until you are at the agreed meeting point as, with the best intentions of providing you with the most efficient service, driver information is subject to change. If you are unable to locate your driver using CheckPickup, contact your supplier for assistance. Do not leave without having contacted your supplier using the details below first.\n\nDISCLAIMER HolidayTaxis Group Limited (part of HBX Group) processes your personal data for the purpose of providing you with contracted travel services. For more information about how we process your personal data, please refer to the Privacy Policy. You have the right to access, rectify, delete, and restrict the processing of your data, as well as other rights recognized by applicable law.",
+                "checkPickup": {
+                  "mustCheckPickupTime": true,
+                  "url": "www.checkpickup.com",
+                  "hoursBeforeConsulting": 24
+                }
+              },
+              "price": {
+                "net": 55.53,
+                "selling": 55.53,
+                "currency": "EUR",
+                "markupPct": 0,
+                "basis": "NET_PLUS_MARKUP"
+              },
+              "cancellationPolicies": [
+                {
+                  "amount": 55.51,
+                  "from": "2026-12-16T18:00:00",
+                  "currency": "EUR"
+                }
+              ],
+              "remarks": [
+                {
+                  "type": "CONTRACT",
+                  "description": "\nYou MUST confirm your pick up time\n\nUse ONE of the following methods:\n\n1. Visit https://hbd.htxstaging.com approx. 24 hours prior to your departure and follow instructions on the screen\n\n 2. Contact the supplier 24h prior to departure during their office hours.\n\nPlease ensure that you are at your pick-up point 10/15 minutes before the confirmed time.\n\nIdentify yourself by showing this confirmation to your Supplier, for whom we act as a booking agent.\n\nIMPORTANT NOTE: Due to regulations put in place by the Turkish Ministry of Transport, it is a LEGAL OBLIGATION to provide all passenger names that are due to travel on your booking, at least 12 hours prior to travel. Please call or Whatsapp our local supplier on +905428101208 to provide this information. Failure to do so, or if the information provided is incorrect, may result in significant delays.\n\nLonger transfers may include a comfort break. These breaks are for the comfort of the passengers and drivers.\n\n\n\nIn the event you are delayed for your departure pick up you must call the supplier.\n\nIF YOU CAN'T LOCATE YOUR DRIVER, please contact them directly by clicking on this link https://hbd.htxstaging.com.\nYou will need an internet or mobile phone connection to be able to call/message your driver.\n\nPlease don't attempt to contact your driver until you are at the agreed meeting point as, with the best intentions of providing you with the most efficient service, driver information is subject to change. If you are unable to locate your driver using CheckPickup, contact your supplier for assistance. Do not leave without having contacted your supplier using the details below first.\n\nDISCLAIMER HolidayTaxis Group Limited (part of HBX Group) processes your personal data for the purpose of providing you with contracted travel services. For more information about how we process your personal data, please refer to the Privacy Policy. You have the right to access, rectify, delete, and restrict the processing of your data, as well as other rights recognized by applicable law.",
+                  "mandatory": true
+                }
+              ],
+              "details": [
+                {
+                  "id": "TRFTIME",
+                  "name": "Transfer time",
+                  "description": "min. Estimated journey time"
+                },
+                {
+                  "id": "MINPAX",
+                  "name": "Minimum pax",
+                  "description": "passenger(s) minimum"
+                },
+                {
+                  "id": "MAXPAX",
+                  "name": "Maximum pax",
+                  "description": "passenger(s) maximum"
+                },
+                {
+                  "id": "LUGGAGE",
+                  "name": "Number of suitcases",
+                  "description": "suitcases permitted"
+                }
+              ],
+              "waitingTime": [
+                {
+                  "value": null,
+                  "type": "SUPPLIER_MAX_WAITING_TIME",
+                  "metric": "minutes",
+                  "remarks": "In the event you are delayed for your departure pick up you must call the supplier."
+                }
+              ],
+              "images": [
+                "https://assets.htxstaging.com/imgs/default/vehicle_set/speedyshuttle.jpg",
+                "https://assets.htxstaging.com/imgs/default/vehicle_set/speedyshuttle.jpg",
+                "https://assets.htxstaging.com/imgs/default/vehicle_set/speedyshuttle.jpg"
+              ],
+              "extrasAvailable": [
+                {
+                  "amount": 10.96,
+                  "type": "Wheelchair (foldable)",
+                  "code": "T05"
+                },
+                {
+                  "amount": 10.96,
+                  "type": "Golf Clubs",
+                  "code": "T07"
+                },
+                {
+                  "amount": 10.96,
+                  "type": "Ski Equipment",
+                  "code": "T10"
+                },
+                {
+                  "amount": 0,
+                  "type": "Pushchair",
+                  "code": "T08"
+                }
+              ]
+            },
+            "alternatives": [
+              {
+                "optionId": "937a7dfa6e",
+                "transferType": "SHARED",
+                "vehicle": {
+                  "code": "SH",
+                  "name": "Shuttle"
+                },
+                "category": {
+                  "code": "STND",
+                  "name": "Standard"
+                },
+                "price": {
+                  "net": 51.24,
+                  "selling": 51.24,
+                  "currency": "EUR",
+                  "markupPct": 0,
+                  "basis": "NET_PLUS_MARKUP"
+                }
+              },
+              {
+                "optionId": "3f43359ce4",
+                "transferType": "PRIVATE",
+                "vehicle": {
+                  "code": "MNBS",
+                  "name": "Minibus"
+                },
+                "category": {
+                  "code": "STND",
+                  "name": "Standard"
+                },
+                "price": {
+                  "net": 68.31,
+                  "selling": 68.31,
+                  "currency": "EUR",
+                  "markupPct": 0,
+                  "basis": "NET_PLUS_MARKUP"
+                }
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "date": "2026-12-10",
+        "weekday": "Thursday",
+        "destination": "Dubai",
+        "events": [
+          {
+            "time": "14:30",
+            "type": "TRANSFER",
+            "title": "Arrival transfer DXB → Metropolitan Hotel Dubai",
+            "details": "Private · Minibus",
+            "itemId": "TRF-88e9f0dc"
+          },
+          {
+            "time": "14:30",
+            "type": "HOTEL",
+            "title": "Check-in: Metropolitan Hotel Dubai",
+            "details": "BED AND BREAKFAST",
+            "itemId": "HTL-0"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "date": "2026-12-11",
+        "weekday": "Friday",
+        "destination": "Dubai",
+        "events": [
+          {
+            "time": "18:00",
+            "type": "ACTIVITY",
+            "title": "Heritage Camel Safari",
+            "details": null,
+            "itemId": "ACT-452b79e3"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "date": "2026-12-12",
+        "weekday": "Saturday",
+        "destination": "Dubai",
+        "events": [
+          {
+            "time": "09:00",
+            "type": "ACTIVITY",
+            "title": "At The Top Burj Khalifa Level 148 with Transfer",
+            "details": "Private Return Transfer - Peak",
+            "itemId": "ACT-31be0963"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "date": "2026-12-13",
+        "weekday": "Sunday",
+        "destination": "Dubai",
+        "events": [
+          {
+            "time": "14:00",
+            "type": "ACTIVITY",
+            "title": "Dubai Marina Yacht - Shared Tour (optional suggestion)",
+            "details": "Afternoon Tour",
+            "itemId": "ACT-7a2b95d8"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "date": "2026-12-14",
+        "weekday": "Monday",
+        "destination": "Dubai",
+        "events": [
+          {
+            "time": "06:45",
+            "type": "HOTEL",
+            "title": "Check-out: Metropolitan Hotel Dubai",
+            "details": null,
+            "itemId": "HTL-0"
+          },
+          {
+            "time": "06:45",
+            "type": "TRANSFER",
+            "title": "Departure transfer Metropolitan Hotel Dubai → DXB",
+            "details": "Private · pickup 06:45",
+            "itemId": "TRF-07540323"
+          },
+          {
+            "time": "14:00",
+            "type": "TRANSFER",
+            "title": "Arrival transfer IST → Armada Hotel Old City Sultanahmet",
+            "details": "Private · Minibus",
+            "itemId": "TRF-e9691fcd"
+          },
+          {
+            "time": "14:00",
+            "type": "HOTEL",
+            "title": "Check-in: Armada Hotel Old City Sultanahmet",
+            "details": "BED AND BREAKFAST",
+            "itemId": "HTL-1"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "date": "2026-12-15",
+        "weekday": "Tuesday",
+        "destination": "Istanbul",
+        "events": [
+          {
+            "time": "14:00",
+            "type": "ACTIVITY",
+            "title": "Bosphorus Sunset Cruise",
+            "details": "Cruise",
+            "itemId": "ACT-21e80ea3"
+          }
+        ]
+      },
+      {
+        "day": 7,
+        "date": "2026-12-16",
+        "weekday": "Wednesday",
+        "destination": "Istanbul",
+        "events": [
+          {
+            "time": "09:00",
+            "type": "ACTIVITY",
+            "title": "Byzantine and Ottoman Relics:Blue Mosque,Hagia Sophia,Topkapi Palace & Grand Bazaar - Full-Day",
+            "details": "Private tour with ticket",
+            "itemId": "ACT-ab6baa81"
+          }
+        ]
+      },
+      {
+        "day": 8,
+        "date": "2026-12-17",
+        "weekday": "Thursday",
+        "destination": "Istanbul",
+        "events": [
+          {
+            "time": "12:00",
+            "type": "HOTEL",
+            "title": "Check-out: Armada Hotel Old City Sultanahmet",
+            "details": null,
+            "itemId": "HTL-1"
+          },
+          {
+            "time": null,
+            "type": "TRANSFER",
+            "title": "Departure transfer Armada Hotel Old City Sultanahmet → IST",
+            "details": "Shared · pickup time to be confirmed",
+            "itemId": "TRF-ef15eae8"
+          }
+        ]
+      }
+    ],
+    "pricing": {
+      "lines": [
+        {
+          "category": "HOTEL",
+          "destinationIndex": 0,
+          "itemId": "HTL-0",
+          "label": "Metropolitan Hotel Dubai — 4 night(s)",
+          "price": {
+            "net": 1158.76,
+            "selling": 1158.76,
+            "currency": "EUR",
+            "perNight": 289.69,
+            "mandatorySellingPrice": false
+          }
+        },
+        {
+          "category": "ACTIVITY",
+          "destinationIndex": 0,
+          "itemId": "ACT-452b79e3",
+          "label": "Heritage Camel Safari (2026-12-11)",
+          "price": {
+            "net": 665.25,
+            "selling": 665.25,
+            "currency": "EUR",
+            "markupPct": 0,
+            "basis": "NET_PLUS_MARKUP"
+          }
+        },
+        {
+          "category": "ACTIVITY",
+          "destinationIndex": 0,
+          "itemId": "ACT-31be0963",
+          "label": "At The Top Burj Khalifa Level 148 with Transfer (2026-12-12)",
+          "price": {
+            "net": 492.93,
+            "selling": 492.93,
+            "currency": "EUR",
+            "markupPct": 0,
+            "basis": "NET_PLUS_MARKUP"
+          }
+        },
+        {
+          "category": "TRANSFER",
+          "destinationIndex": 0,
+          "itemId": "TRF-88e9f0dc",
+          "label": "Arrival transfer DXB → 484321 (private)",
+          "price": {
+            "net": 43.65,
+            "selling": 43.65,
+            "currency": "EUR",
+            "markupPct": 0,
+            "basis": "NET_PLUS_MARKUP"
+          }
+        },
+        {
+          "category": "TRANSFER",
+          "destinationIndex": 0,
+          "itemId": "TRF-07540323",
+          "label": "Departure transfer 484321 → DXB (private)",
+          "price": {
+            "net": 43.65,
+            "selling": 43.65,
+            "currency": "EUR",
+            "markupPct": 0,
+            "basis": "NET_PLUS_MARKUP"
+          }
+        },
+        {
+          "category": "HOTEL",
+          "destinationIndex": 1,
+          "itemId": "HTL-1",
+          "label": "Armada Hotel Old City Sultanahmet — 3 night(s)",
+          "price": {
+            "net": 649.83,
+            "selling": 649.83,
+            "currency": "EUR",
+            "perNight": 216.61,
+            "mandatorySellingPrice": false
+          }
+        },
+        {
+          "category": "ACTIVITY",
+          "destinationIndex": 1,
+          "itemId": "ACT-21e80ea3",
+          "label": "Bosphorus Sunset Cruise (2026-12-15)",
+          "price": {
+            "net": 616.23,
+            "selling": 616.23,
+            "currency": "EUR",
+            "markupPct": 0,
+            "basis": "NET_PLUS_MARKUP"
+          }
+        },
+        {
+          "category": "ACTIVITY",
+          "destinationIndex": 1,
+          "itemId": "ACT-ab6baa81",
+          "label": "Byzantine and Ottoman Relics:Blue Mosque,Hagia Sophia,Topkapi Palace & Grand Bazaar - Full-Day (2026-12-16)",
+          "price": {
+            "net": 788.58,
+            "selling": 788.58,
+            "currency": "EUR",
+            "markupPct": 0,
+            "basis": "NET_PLUS_MARKUP"
+          }
+        },
+        {
+          "category": "TRANSFER",
+          "destinationIndex": 1,
+          "itemId": "TRF-e9691fcd",
+          "label": "Arrival transfer IST → 30660 (private)",
+          "price": {
+            "net": 68.31,
+            "selling": 68.31,
+            "currency": "EUR",
+            "markupPct": 0,
+            "basis": "NET_PLUS_MARKUP"
+          }
+        },
+        {
+          "category": "TRANSFER",
+          "destinationIndex": 1,
+          "itemId": "TRF-ef15eae8",
+          "label": "Departure transfer 30660 → IST (shared)",
+          "price": {
+            "net": 55.53,
+            "selling": 55.53,
+            "currency": "EUR",
+            "markupPct": 0,
+            "basis": "NET_PLUS_MARKUP"
+          }
+        }
+      ],
+      "totalsByCurrency": [
+        {
+          "currency": "EUR",
+          "net": 4582.72,
+          "selling": 4582.72,
+          "margin": 0,
+          "byCategory": {
+            "HOTEL": 1808.59,
+            "ACTIVITY": 2562.99,
+            "TRANSFER": 211.14
+          }
+        }
+      ],
+      "grandTotal": {
+        "amount": 4582.72,
+        "currency": "EUR"
+      },
+      "budgetCheck": {
+        "budget": 6000,
+        "currency": "EUR",
+        "packageTotal": 4582.72,
+        "difference": 1417.28,
+        "withinBudget": true,
+        "utilisationPct": 76.4
+      },
+      "optionalExtras": {
+        "lines": [
+          {
+            "category": "ACTIVITY",
+            "destinationIndex": 0,
+            "itemId": "ACT-7a2b95d8",
+            "label": "Dubai Marina Yacht - Shared Tour (2026-12-13) — suggested",
+            "price": {
+              "net": 173.78,
+              "selling": 173.78,
+              "currency": "EUR",
+              "markupPct": 0,
+              "basis": "NET_PLUS_MARKUP"
+            }
+          }
+        ],
+        "totalsByCurrency": [
+          {
+            "currency": "EUR",
+            "net": 173.78,
+            "selling": 173.78,
+            "margin": 0,
+            "byCategory": {
+              "ACTIVITY": 173.78
+            }
+          }
+        ],
+        "grandTotal": {
+          "amount": 173.78,
+          "currency": "EUR"
+        },
+        "budgetCheck": null
+      }
+    },
+    "cancellation": {
+      "fullyRefundableNow": true,
+      "nonRefundableItems": [],
+      "earliestPenaltyFrom": "2026-12-08T00:00:00.000Z",
+      "note": "Cancellation charges apply from the listed date-times (destination local time)."
+    },
+    "addOns": {
+      "travelInsurance": true,
+      "esim": true,
+      "evisa": false,
+      "note": "Add-ons are fulfilled outside Hotelbeds"
+    },
+    "preferences": {
+      "mealPref": "HALAL",
+      "guideLanguage": "English",
+      "comfort": {
+        "comfortWtCrowd": "MEDIUM",
+        "comfortWtRemote": "LOW",
+        "comfortWtLocalTranspt": "MEDIUM"
+      }
+    }
+  },
+  "bookingPayload": {
+    "version": 1,
+    "sourceMarket": "PK",
+    "hotels": [
+      {
+        "itemId": "HTL-0",
+        "destinationIndex": 0,
+        "destinationName": "Dubai",
+        "optionId": "a6c1fd708e",
+        "hotelCode": 484321,
+        "hotelName": "Metropolitan Hotel Dubai",
+        "checkIn": "2026-12-10",
+        "checkOut": "2026-12-14",
+        "rooms": [
+          {
+            "rateKey": "20261210|20261214|W|148|484321|DBT.DX-1|BAR BB NEW|BB||1~2~1|8|N@07~~208543~1518432068~N~~~NOR~~95B99F06B6874BD179146473786905PAPK0060000000000124c486",
+            "rateType": "BOOKABLE",
+            "rooms": 1,
+            "adults": 2,
+            "children": 1,
+            "childAges": [
+              8
+            ],
+            "roomName": "Deluxe Room King",
+            "boardCode": "BB",
+            "expectedNet": 1158.76,
+            "expectedSelling": 1158.76
+          }
+        ],
+        "expectedNet": 1158.76,
+        "expectedSelling": 1158.76,
+        "currency": "EUR",
+        "remark": "High floor if possible",
+        "alternatives": [
+          {
+            "optionId": "c3292656bb",
+            "hotelCode": 235795,
+            "hotelName": "Ramada Hotel & Suites by Wyndham JBR",
+            "checkIn": "2026-12-10",
+            "checkOut": "2026-12-14",
+            "rooms": [
+              {
+                "rateKey": "20261210|20261214|W|148|235795|DBL.DX|FIT BB|BB||1~2~1|8|N@07~~24a41d~-801618104~N~~~NOR~~95B99F06B6874BD179146473786905PAPK0060000000000124a41d",
+                "rateType": "BOOKABLE",
+                "rooms": 1,
+                "adults": 2,
+                "children": 1,
+                "childAges": [
+                  8
+                ],
+                "roomName": "1 King Bed Deluxe Room",
+                "boardCode": "BB",
+                "expectedNet": 1053.74,
+                "expectedSelling": 1053.74
+              }
+            ],
+            "expectedNet": 1053.74,
+            "expectedSelling": 1053.74,
+            "currency": "EUR"
+          },
+          {
+            "optionId": "387481d41a",
+            "hotelCode": 59265,
+            "hotelName": "Millennium Airport Hotel Dubai",
+            "checkIn": "2026-12-10",
+            "checkOut": "2026-12-14",
+            "rooms": [
+              {
+                "rateKey": "20261210|20261214|W|148|59265|DBT.DX|WH07999B|BB||1~2~1|8|N@07~~22a227~517925856~N~~~NOR~~95B99F06B6874BD179146473786905PAPK0060000000000122a227",
+                "rateType": "BOOKABLE",
+                "rooms": 1,
+                "adults": 2,
+                "children": 1,
+                "childAges": [
+                  8
+                ],
+                "roomName": "Deluxe Room with One King Bed-Double",
+                "boardCode": "BB",
+                "expectedNet": 551.42,
+                "expectedSelling": 551.42
+              }
+            ],
+            "expectedNet": 551.42,
+            "expectedSelling": 551.42,
+            "currency": "EUR"
+          },
+          {
+            "optionId": "c818715c6b",
+            "hotelCode": 59249,
+            "hotelName": "Howard Johnson Plaza by Wyndham Dubai Deira",
+            "checkIn": "2026-12-10",
+            "checkOut": "2026-12-14",
+            "rooms": [
+              {
+                "rateKey": "20261210|20261214|W|148|59249|DBL.DX|BAR-BB|BB||1~2~1|8|N@07~~246246~-2048943710~N~~~NOR~~95B99F06B6874BD179146473786905PAPK00600000000001260205",
+                "rateType": "BOOKABLE",
+                "rooms": 1,
+                "adults": 2,
+                "children": 1,
+                "childAges": [
+                  8
+                ],
+                "roomName": "1 King Bed, Deluxe Room, Non-Smoking",
+                "boardCode": "BB",
+                "expectedNet": 517.96,
+                "expectedSelling": 517.96
+              }
+            ],
+            "expectedNet": 517.96,
+            "expectedSelling": 517.96,
+            "currency": "EUR"
+          }
+        ]
+      },
+      {
+        "itemId": "HTL-1",
+        "destinationIndex": 1,
+        "destinationName": "Istanbul",
+        "optionId": "63909cfbd4",
+        "hotelCode": 30660,
+        "hotelName": "Armada Hotel Old City Sultanahmet",
+        "checkIn": "2026-12-14",
+        "checkOut": "2026-12-17",
+        "rooms": [
+          {
+            "rateKey": "20261214|20261217|W|77|30660|DBL.ST|B2C BB|BB||1~2~1|8|P@07~~22b2f3~-881979344~N~~~NOR~~C2045D3760D5420179146473795805PAPK00600000000001253289",
+            "rateType": "BOOKABLE",
+            "rooms": 1,
+            "adults": 2,
+            "children": 1,
+            "childAges": [
+              8
+            ],
+            "roomName": "standard Double room",
+            "boardCode": "BB",
+            "expectedNet": 649.83,
+            "expectedSelling": 649.83
+          }
+        ],
+        "expectedNet": 649.83,
+        "expectedSelling": 649.83,
+        "currency": "EUR",
+        "remark": null,
+        "alternatives": [
+          {
+            "optionId": "62e14f7aea",
+            "hotelCode": 60359,
+            "hotelName": "Arcadia Blue Istanbul Hotel",
+            "checkIn": "2026-12-14",
+            "checkOut": "2026-12-17",
+            "rooms": [
+              {
+                "rateKey": "20261214|20261217|W|77|60359|DBL.ST|MARGIN REF 25|BB||1~2~1|8|N@07~~2301b3~416881123~N~~~NOR~~C2045D3760D5420179146473795805PAPK006000000000012301b3",
+                "rateType": "BOOKABLE",
+                "rooms": 1,
+                "adults": 2,
+                "children": 1,
+                "childAges": [
+                  8
+                ],
+                "roomName": "DOUBLE STANDARD",
+                "boardCode": "BB",
+                "expectedNet": 435.48,
+                "expectedSelling": 435.48
+              }
+            ],
+            "expectedNet": 435.48,
+            "expectedSelling": 435.48,
+            "currency": "EUR"
+          },
+          {
+            "optionId": "3a8398b025",
+            "hotelCode": 82165,
+            "hotelName": "Lady Diana",
+            "checkIn": "2026-12-14",
+            "checkOut": "2026-12-17",
+            "rooms": [
+              {
+                "rateKey": "20261214|20261217|W|77|82165|DBL.ST|B2B REFUNDABLE|BB||1~2~1|8|N@07~~21113f~1579043902~N~~~NOR~~C2045D3760D5420179146473795805PAPK0060000000000121113f",
+                "rateType": "BOOKABLE",
+                "rooms": 1,
+                "adults": 2,
+                "children": 1,
+                "childAges": [
+                  8
+                ],
+                "roomName": "Double Standard",
+                "boardCode": "BB",
+                "expectedNet": 319.17,
+                "expectedSelling": 319.17
+              }
+            ],
+            "expectedNet": 319.17,
+            "expectedSelling": 319.17,
+            "currency": "EUR"
+          },
+          {
+            "optionId": "990c7f8831",
+            "hotelCode": 600623,
+            "hotelName": "Renata Suites Boutique Hotel",
+            "checkIn": "2026-12-14",
+            "checkOut": "2026-12-17",
+            "rooms": [
+              {
+                "rateKey": "20261214|20261217|W|77|600623|DBL.ST|B2C|BB||1~2~1|8|N@07~~20029d~-1282963450~N~~~NOR~~C2045D3760D5420179146473795805PAPK0060000000000123123f",
+                "rateType": "BOOKABLE",
+                "rooms": 1,
+                "adults": 2,
+                "children": 1,
+                "childAges": [
+                  8
+                ],
+                "roomName": "standard double",
+                "boardCode": "BB",
+                "expectedNet": 575.49,
+                "expectedSelling": 575.49
+              }
+            ],
+            "expectedNet": 575.49,
+            "expectedSelling": 575.49,
+            "currency": "EUR"
+          }
+        ]
+      }
+    ],
+    "activities": [
+      {
+        "itemId": "ACT-452b79e3",
+        "destinationIndex": 0,
+        "optional": false,
+        "activityCode": "E-E10-A1MANO0279",
+        "activityName": "Heritage Camel Safari",
+        "modalityCode": "1879594170#PRIVATE TO",
+        "rateCode": "STANDARD",
+        "rateClass": "NOR",
+        "date": "2026-12-11",
+        "from": "2026-12-11",
+        "to": "2026-12-11",
+        "session": null,
+        "language": "eng",
+        "pax": {
+          "adults": 2,
+          "childAges": [
+            8
+          ]
+        },
+        "expectedAmount": 665.25,
+        "currency": "EUR",
+        "questions": [
+          {
+            "code": "HOTEL",
+            "text": "Please provide the name of your hotel",
+            "required": true
+          }
+        ]
+      },
+      {
+        "itemId": "ACT-31be0963",
+        "destinationIndex": 0,
+        "optional": false,
+        "activityCode": "E-E10-A1MANO0273",
+        "activityName": "At The Top Burj Khalifa Level 148 with Transfer",
+        "modalityCode": "1008809841#PVT-RET-PE",
+        "rateCode": "STANDARD",
+        "rateClass": "NOR",
+        "date": "2026-12-12",
+        "from": "2026-12-12",
+        "to": "2026-12-12",
+        "session": null,
+        "language": null,
+        "pax": {
+          "adults": 2,
+          "childAges": [
+            8
+          ]
+        },
+        "expectedAmount": 492.93,
+        "currency": "EUR",
+        "questions": [
+          {
+            "code": "HOTEL",
+            "text": "Please provide the name of your hotel",
+            "required": true
+          },
+          {
+            "code": "PHONENUMBER",
+            "text": "Guests telephone with international code required",
+            "required": true
+          }
+        ]
+      },
+      {
+        "itemId": "ACT-7a2b95d8",
+        "destinationIndex": 0,
+        "optional": true,
+        "activityCode": "E-E10-A1SUNO0282",
+        "activityName": "Dubai Marina Yacht - Shared Tour",
+        "modalityCode": "118266448#AFTERNOON",
+        "rateCode": "STANDARD",
+        "rateClass": "NOR",
+        "date": "2026-12-13",
+        "from": "2026-12-13",
+        "to": "2026-12-13",
+        "session": "14:00",
+        "language": "eng",
+        "pax": {
+          "adults": 2,
+          "childAges": [
+            8
+          ]
+        },
+        "expectedAmount": 173.78,
+        "currency": "EUR",
+        "questions": []
+      },
+      {
+        "itemId": "ACT-21e80ea3",
+        "destinationIndex": 1,
+        "optional": false,
+        "activityCode": "E-T01-BOSSUNSET",
+        "activityName": "Bosphorus Sunset Cruise",
+        "modalityCode": "96994746#SUNSET",
+        "rateCode": "STANDARD",
+        "rateClass": "NOR",
+        "date": "2026-12-15",
+        "from": "2026-12-15",
+        "to": "2026-12-15",
+        "session": "18:15",
+        "language": "eng",
+        "pax": {
+          "adults": 2,
+          "childAges": [
+            8
+          ]
+        },
+        "expectedAmount": 616.23,
+        "currency": "EUR",
+        "questions": [
+          {
+            "code": "HOTEL",
+            "text": "Please provide the name of your hotel",
+            "required": true
+          },
+          {
+            "code": "PHONENUMBER",
+            "text": "Guests telephone with international code required",
+            "required": true
+          }
+        ]
+      },
+      {
+        "itemId": "ACT-ab6baa81",
+        "destinationIndex": 1,
+        "optional": false,
+        "activityCode": "E-T01-BYOTRELICS",
+        "activityName": "Byzantine and Ottoman Relics:Blue Mosque,Hagia Sophia,Topkapi Palace & Grand Bazaar - Full-Day",
+        "modalityCode": "2044662916#PRIVATE",
+        "rateCode": "STANDARD",
+        "rateClass": "NOR",
+        "date": "2026-12-16",
+        "from": "2026-12-16",
+        "to": "2026-12-16",
+        "session": "09:00",
+        "language": "cas",
+        "pax": {
+          "adults": 2,
+          "childAges": [
+            8
+          ]
+        },
+        "expectedAmount": 788.58,
+        "currency": "EUR",
+        "questions": [
+          {
+            "code": "HOTEL",
+            "text": "Please provide the name of your hotel",
+            "required": true
+          },
+          {
+            "code": "PHONENUMBER",
+            "text": "Guests telephone with international code required",
+            "required": true
+          }
+        ]
+      }
+    ],
+    "transfers": [
+      {
+        "itemId": "TRF-88e9f0dc",
+        "destinationIndex": 0,
+        "direction": "ARRIVAL",
+        "rateKey": "ARRIVAL|IATA|DXB|ATLAS|484321|2026-12-10|14:30|2026-12-10|14:30|2~1~0||8|||||148|PRVT||MNBS|STND|43.65||||2|484321|SIMPLE|0480fe0d0fc34f87d83eebf1e4b42186|1516257|R|498efcbc26033a21d0829bf137ea93ea|2026-10-08|15:05",
+        "transferType": "PRIVATE",
+        "from": {
+          "type": "IATA",
+          "code": "DXB",
+          "name": "Dubai International Airport"
+        },
+        "to": {
+          "type": "ATLAS",
+          "code": "484321",
+          "name": "Metropolitan Hotel Dubai"
+        },
+        "travelMode": "FLIGHT",
+        "requestedDateTime": "2026-12-10T14:30:00",
+        "expectedAmount": 43.65,
+        "currency": "EUR",
+        "luggageComment": "3 large suitcases"
+      },
+      {
+        "itemId": "TRF-07540323",
+        "destinationIndex": 0,
+        "direction": "DEPARTURE",
+        "rateKey": "DEPARTURE|ATLAS|484321|IATA|DXB|2026-12-14|06:45|2026-12-14|10:00|2~1~0||8|||||148|PRVT||MNBS|STND|43.65||||2|DXB|SIMPLE|6cc1edadb03432ea2377bc3827ace597|1516257|R|498efcbc26033a21d0829bf137ea93ea|2026-10-08|15:05",
+        "transferType": "PRIVATE",
+        "from": {
+          "type": "ATLAS",
+          "code": "484321",
+          "name": "Metropolitan Hotel Dubai"
+        },
+        "to": {
+          "type": "IATA",
+          "code": "DXB",
+          "name": "Dubai International Airport"
+        },
+        "travelMode": "FLIGHT",
+        "requestedDateTime": "2026-12-14T10:00:00",
+        "expectedAmount": 43.65,
+        "currency": "EUR",
+        "luggageComment": "3 large suitcases"
+      },
+      {
+        "itemId": "TRF-e9691fcd",
+        "destinationIndex": 1,
+        "direction": "ARRIVAL",
+        "rateKey": "ARRIVAL|IATA|IST|ATLAS|30660|2026-12-14|14:00|2026-12-14|14:00|2~1~0||13|||||77|PRVT||MNBS|STND|68.31||||2|30660|SIMPLE|a4915bb3e8043dfa281b0bfc63131680|1516066|R|498efcbc26033a21d0829bf137ea93ea|2026-10-08|15:05",
+        "transferType": "PRIVATE",
+        "from": {
+          "type": "IATA",
+          "code": "IST",
+          "name": "Istanbul Airport"
+        },
+        "to": {
+          "type": "ATLAS",
+          "code": "30660",
+          "name": "Armada Hotel Old City Sultanahmet"
+        },
+        "travelMode": "FLIGHT",
+        "requestedDateTime": "2026-12-14T14:00:00",
+        "expectedAmount": 68.31,
+        "currency": "EUR",
+        "luggageComment": null
+      },
+      {
+        "itemId": "TRF-ef15eae8",
+        "destinationIndex": 1,
+        "direction": "DEPARTURE",
+        "rateKey": "DEPARTURE|ATLAS|30660|IATA|IST|||2026-12-17|18:00|2~1~0||99|||||77|SHRD||SH|PRM|55.53||||519|IST|SIMPLE|fdec204de53768cfd83801eb0f9b92fc|1516236|R|498efcbc26033a21d0829bf137ea93ea|2026-10-08|15:05",
+        "transferType": "SHARED",
+        "from": {
+          "type": "ATLAS",
+          "code": "30660",
+          "name": "Armada Hotel Old City Sultanahmet"
+        },
+        "to": {
+          "type": "IATA",
+          "code": "IST",
+          "name": "Istanbul Airport"
+        },
+        "travelMode": "FLIGHT",
+        "requestedDateTime": "2026-12-17T18:00:00",
+        "expectedAmount": 55.53,
+        "currency": "EUR",
+        "luggageComment": null
+      }
+    ],
+    "currencies": [
+      "EUR"
+    ]
+  },
+  "adminComments": [
+    {
+      "severity": "INFO",
+      "category": "ADD_ON",
+      "message": "Travel insurance requested — not a Hotelbeds product; add from the platform's add-on catalogue.",
+      "destinationIndex": null,
+      "actionRequired": true
+    },
+    {
+      "severity": "INFO",
+      "category": "ADD_ON",
+      "message": "eSIM requested — not a Hotelbeds product; add from the platform's add-on catalogue.",
+      "destinationIndex": null,
+      "actionRequired": true
+    },
+    {
+      "severity": "INFO",
+      "category": "MEAL",
+      "message": "Meal preference 'HALAL' — Hotelbeds has no dietary filter; verify with the hotel and activity suppliers.",
+      "destinationIndex": null,
+      "actionRequired": false
+    },
+    {
+      "severity": "INFO",
+      "category": "HOTEL",
+      "message": "Dubai: hotel comment 'High floor if possible' will be sent as a booking remark (not guaranteed by the hotel).",
+      "destinationIndex": 0,
+      "actionRequired": false
+    },
+    {
+      "severity": "INFO",
+      "category": "TRANSFER",
+      "message": "Dubai: luggage note '3 large suitcases' will be sent as a transfer remark.",
+      "destinationIndex": 0,
+      "actionRequired": false
+    },
+    {
+      "severity": "INFO",
+      "category": "TRANSFER",
+      "message": "Istanbul: departure pickup time must be checked at www.checkpickup.com 24h before travel — show this to the customer.",
+      "destinationIndex": 1,
+      "actionRequired": false
+    }
+  ],
+  "requestFieldsAdded": [
+    {
+      "field": "destinations[1].accommodation.rooms",
+      "usedValue": "auto",
+      "reason": "Rooms auto-calculated (max 2 adults/room)"
+    }
+  ],
+  "generationMetadata": {
+    "durationMs": 15933.8,
+    "stageDurationsMs": {
+      "hotels": 3152.5,
+      "activities": 2445.3,
+      "transfers": 4065,
+      "package": 6203
+    },
+    "hotelbedsCalls": {
+      "total": 12,
+      "byProduct": {
+        "hotels": 6,
+        "activities": 4,
+        "transfers": 2
+      },
+      "cacheHits": 0
+    },
+    "hotelbedsEnv": "test",
+    "narrativeSource": "openai",
+    "serviceVersion": "2.0.0",
+    "correlationId": "e3543296bbc64389b20a1e48fa54fcf5",
+    "componentStatus": [
+      {
+        "destination": "Dubai",
+        "hotel": "SELECTED",
+        "activities": "MATCHED",
+        "transfers": "SELECTED"
+      },
+      {
+        "destination": "Istanbul",
+        "hotel": "SELECTED",
+        "activities": "MATCHED",
+        "transfers": "SELECTED"
+      }
+    ]
+  }
+}
